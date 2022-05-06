@@ -1,0 +1,181 @@
+html{
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  position: relative;
+}
+ul{list-style: none;}
+a, a:link {color: #333; text-decoration: none; outline: none}
+a:hover, a:active {color: #333; text-decoration: none;}
+.hidden, #skipNav{position: absolute; display: block;width:1px; height: 1px;
+    left:-1000%; top:0; overflow: hidden; color: #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+/* 와이드 pc */
+.container-fluid{padding: 0;}
+#headerArea h1{margin: 10px 0 0 2%;}
+#headerArea .navbar-default{background: #fff;}
+#headerArea .navbar-default .navbar-header .navbar-toggle{border: none;}
+#headerArea .navbar-default .navbar-nav{margin: 15px 2% 10px 0;}
+#headerArea .navbar-default .navbar-nav>li>a:hover{color: #ffc72c;}
+#headerArea .navbar-default .navbar-nav>li>a{font-family: 'Roboto', sans-serif; font-size: 1.875rem; font-weight: bold; color: #333; margin: 0;}
+#headerArea .navbar-default .navbar-nav>li.active>a{color: #ffc72c; background: none;}
+
+.carousel-indicators{bottom: 100px;}
+.carousel-indicators .active{width: 50px; margin-right: 10px; background: #ffc72c; border: 0;}
+.carousel-indicators li{width: 50px; margin-right: 10px; background: rgba(255,255,255,0.6); border: 0;}
+.main_visual .carousel-inner img{margin-top: 75px;}
+.main_visual .icon-prev{font-size: 300px; color: rgba(255, 255, 255, .6); margin-top: -150px;}
+.main_visual .icon-next{font-size: 300px; color: rgba(255, 255, 255, .6); margin-top: -150px;}
+
+#content #history h3{font-size: 3.125rem; font-weight: bold; color: #333; text-align: center; margin: 150px 0 50px;}
+#content #history p{font-size: 1.375rem; font-weight: 400; color: #333; text-align: center; margin: 0 2%;}
+#content #history div{margin: 50px 0 150px;}
+#content #history div dt{font-size: 1.5rem; font-weight: 500; color: #ffc72c; margin-bottom: 30px; line-height: 2rem; text-align: justify;}
+#content #history div dd{font-size: 1.125rem; font-weight: 400; color: #333; line-height: 2rem; text-align: justify;}
+
+#content #philosophy .img_box{width: 100%; height: 320px; position: relative; background: url(../images/philosophy1.jpg) no-repeat; 
+  background-attachment: fixed;}
+#content #philosophy .img_box h3{font-size: 3.125rem; font-weight: bold; color: #ffc72c; margin: 80px 0 30px;}
+#content #philosophy .img_box p{font-size: 1.5rem; font-weight: 400; color: #fff;}
+#content #philosophy .nav-tabs{margin: 80px 0 50px;}
+#content #philosophy .nav-tabs li a{display: block; font-size: 1.5rem; font-weight: 500; color: #333; padding: 10px 20px;}
+#content #philosophy .nav-tabs li a:hover{color: #ffc72c;}
+#content #philosophy .nav-tabs li.active>a{color: #ffc72c;}
+#content #philosophy .tab-pane img{width: 96%; margin: 0 2%; transition: all .5s;}
+#content #philosophy .tab-pane img:hover{transform: scale(0.95)}
+#content #philosophy .tab-pane dl{margin: 50px 2% 150px;}
+#content #philosophy .tab-pane dt{font-size: 1.5rem; font-weight: bold; color: #333c; margin-bottom: 30px; line-height: 2rem; text-align: justify;}
+#content #philosophy .tab-pane dd{font-size: 1.125rem; font-weight: 400; color: #333; line-height: 2rem; text-align: justify;}
+
+#content #models{background: #f0f0f0;}
+#content #models h3{font-size: 3.125rem; font-weight: bold; color: #333; margin: 150px 0 50px; text-align: center;}
+#content #models p{font-size: 1.5rem; font-weight: 400; color: #333; text-align: center;}
+#content #models ul{margin: 80px 0 150px; padding: 0; position: relative;}
+#content #models ul::before{content:'';width: 100%; height: 40%; background: #ffc72c; position: absolute; top: 14%;}
+#content #models ul li{transition: all .5s;}
+#content #models ul li:hover{transform: scale(1.05);}
+#content #models ul li img{width: 100%;}
+#content #models ul li dt{margin: 50px 0 5px; font-size: 1.375rem; font-weight: bold; color: #333c; line-height: 2rem; text-align: center;}
+#content #models ul li dd{font-size: 1.125rem; font-weight: 400; color: #333; line-height: 2rem; text-align: center;}
+
+#content #service .box{width: 100%; height: 100%; background: rgba(0,0,0,.8); position: absolute; left: 0; top: 0; display: none; z-index: 10;}
+#content #service h3{font-size: 3.125rem; font-weight: bold; color: #333; margin: 150px 0 50px; text-align: center;}
+#content #service p{font-size: 1.5rem; font-weight: 400; color: #333; text-align: center;}
+#content #service span{color: #ffc72c;}
+#content #service ul{margin: 80px 0 120px; transition: all .5s; padding: 0;}
+#content #service ul:hover .openBtn{filter: grayscale(100);}
+#content #service ul li{transition: all .5s;}
+#content #service ul li:hover .openBtn{filter: grayscale(0); transform: scale(1.05);}
+#content #service ul li img{width: 96%; margin: 0 2%; border-radius: 5px;}
+#content #service ul li dt{margin: 20px 0 5px; font-size: 1.375rem; font-weight: bold; color: #333c; line-height: 2rem; text-align: center;}
+#content #service ul li dd{font-size: 1.125rem; font-weight: 400; color: #333; line-height: 2rem; text-align: center;}
+#content #service ul li .big{width: 600px; border: 1px solid #ccc; background: #fff; position: fixed; left: 50%; 
+    margin-left: -300px; top:15%; overflow: hidden; display: none; z-index: 20; border-radius: 5px;}
+#content #service ul li .big img{width: 90%; margin: 30px 5% 0;} 
+#content #service ul li .big dl{width:90%; margin: 30px 5%;}
+#content #service ul li .big dt{font-size: 1.25rem; font-weight: bold; color:#333; text-align: center; border-bottom: 1px solid #ffc72c;}
+#content #service ul li .big dd{font-size: 1rem; font-weight: 400; color:#333; text-align: center; margin-top: 10px;}
+#content #service ul li .big a{display:block; font-size: 1.125rem; font-weight: bold; color: #333; text-align: center; padding: 10px 0; 
+  border-top: 1px solid #ccc;}
+
+#footerArea{background: #474747; position: relative;}
+#footerArea img{display: block; width: 200px; margin: 30px auto; padding-top: 50px;}
+#footerArea p{font-size: 1rem; font-weight: 400; color: #fff; text-align: center; padding-bottom: 50px;}
+#footerArea .topMove{display: block; position: fixed; right: 80px; bottom: 100px; z-index: 50;}
+#footerArea .topMove i{ font-size: 40px; color: #ffc72c;}
+
+@media screen and (max-width:1440px) {
+  .carousel-indicators{bottom: 50px;}
+  #content #models ul::before{height: 35%;}
+}
+
+
+/* 일반pc */
+@media screen and (max-width:1199px) {
+  .carousel-indicators{bottom: 40px;}
+  .carousel-indicators .active{width: 40px; height: 8px;}
+  .carousel-indicators li{width: 40px; height: 8px;}
+  .main_visual .icon-prev{font-size: 250px; margin-top: -125px;}
+  .main_visual .icon-next{font-size: 250px; margin-top: -125px;}
+  #content #history div dt{font-size: 1.25rem; font-weight: 500; color: #ffc72c; margin-bottom: 30px; line-height: 2rem; text-align: justify;}
+  #content #history div dd{font-size: 1.125rem; font-weight: 400; color: #333; line-height: 2rem; text-align: justify;}
+  #content #models ul li dt{font-size: 1.25rem; }
+  #content #models ul li dd{font-size: 1rem;}
+  #content #models ul::before{height: 28%;}
+
+}
+
+/* 테블릿 */
+@media screen and (max-width:991px) {
+  #headerArea .navbar-default .navbar-nav>li>a{font-size: 1.375rem;}
+  #headerArea .navbar-brand img{width: 220px; margin-top: 5px;}
+  .carousel-indicators{bottom: 35px;}
+  .carousel-indicators .active{width: 35px;}
+  .carousel-indicators li{width: 35px;}
+  .main_visual .icon-prev{font-size: 180px; margin-top: -90px;}
+  .main_visual .icon-next{font-size: 180px; margin-top: -90px;}
+  #content #models ul::before{height: 25%; top:10%;}
+  #content #service ul:hover .openBtn{filter: grayscale(0);}
+}
+
+/* 소형테블릿 */
+@media screen and (max-width:767px) {
+  #headerArea .navbar-default .navbar-nav>li>a{font-size: 1.5rem;}
+  #headerArea .navbar-brand img{width: 180px; margin-top: -3px;}
+  .carousel-indicators{bottom: 20px;}
+  .carousel-indicators .active{width: 30px;}
+  .carousel-indicators li{width: 30px;}
+  .main_visual .carousel-inner img{margin-top: 50px;}
+  .main_visual .icon-prev{font-size: 120px; margin-top: -60px;}
+  .main_visual .icon-next{font-size: 120px; margin-top: -60px;}
+  #content #models ul::before{height: 0;}
+
+  #content #history h3{font-size: 1.5rem; margin: 80px 0 30px;}
+  #content #history p{font-size: 1rem; margin: 0 2%;}
+  #content #history div{margin: 30px 0 80px;}
+  #content #history div dl{margin-top: 30px;}
+  #content #history div dt{font-size: 1.125rem; text-align: center;}
+  #content #history div dd{font-size: .875rem; text-align: center;}
+
+  #content #philosophy .img_box{height: 180px;}
+  #content #philosophy .img_box h3{font-size: 1.5rem; margin: 50px 0 20px;}
+  #content #philosophy .img_box p{font-size: 1rem;}
+  #content #philosophy .nav-tabs{margin: 50px 0 30px;}
+  #content #philosophy .nav-tabs li a{font-size: 1rem; padding: 10px 10px;}
+  #content #philosophy .tab-pane dl{margin: 30px 2% 80px;}
+  #content #philosophy .tab-pane dt{font-size: 1.125rem;margin-bottom: 15px;}
+  #content #philosophy .tab-pane dd{font-size: .875rem;}
+
+  #content #models h3{font-size: 1.5rem;margin: 80px 0 30px;}
+  #content #models p{font-size: 1rem; width: 94%; margin: 0 3%;}
+  #content #models ul{margin: 50px 0 80px;}
+  #content #models ul::before{height: 0;}
+  #content #models ul li img{width: 90%; margin: 0 5%;}
+  #content #models ul li:first-of-type{display: none;}
+  #content #models ul li:last-of-type{display: none;}
+  #content #models ul li:nth-of-type(6){display: none;}
+  #content #models ul li dt{margin: 30px 0 5px; font-size: 1.125rem;}
+  #content #models ul li dd{font-size: .875rem;}
+
+  #content #service h3{font-size: 1.5rem; margin: 80px 0 30px;}
+  #content #service p{font-size: 1rem;}
+  #content #service ul{margin: 30px 0 50px;}
+  #content #service ul li:last-of-type{display: none;}
+  #content #service ul li dt{margin: 15px 0 5px; font-size: 1rem;}
+  #content #service ul li dd{font-size: .875rem;}
+  #content #service ul li .big{width: 300px; margin-left: -150px;}
+  #content #service ul li .big img{margin: 20px 5% 0;} 
+
+  #footerArea img{width: 150px; padding-top: 30px; margin-bottom: 20px;}
+  #footerArea p{font-size: .75rem; padding-bottom: 30px;}
+  #footerArea .topMove i{font-size: 30px; color: #ffc72c;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+}
