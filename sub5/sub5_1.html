@@ -1,0 +1,122 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인재채용-채용정보</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content1.css">
+    
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>인재채용</h3>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li class="current"><a href="./sub5_1.html">채용정보</a></li>
+                <li><a href="./sub5_2.html">복리후생</a></li>
+                <li><a href="./sub5_3.html">FAQ</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">HOME &gt; 인재채용 &gt; <strong>채용정보</strong></div>
+                <h2>채용정보</h2>
+                <p>현실에 안주하지 않고 젊음과 열정을 바탕으로 늘 새로운 것에 대한 호기심을 가지고 연구하는 열정적인 인재를 찾습니다.</p>
+            </div>
+
+            <div class="content_area">
+                <div class="talent">
+                    <h3>인재상</h3>
+                    <ul>
+                        <li>
+                            <img src="./images/content1/passion.png" alt="열정">
+                            <p>호기심과 열정이 있는 인재</p>
+                        </li>
+                        <li>
+                            <img src="./images/content1/creativity.png" alt="창의력">
+                            <p>학식과 창의력이 풍부한 인재</p>
+                        </li>
+                        <li>
+                            <img src="./images/content1/challenge.png" alt="도전">
+                            <p>도전적이며 인내심이 있는 인재</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="system">
+                    <h3>인사제도</h3>
+                    <div>
+                        <p>직급체계</p>
+                        <ul class="sys1">
+                            <li><p><span>일반직</span></p></li>
+                            <li><p><span>연구원</span></p></li>
+                            <li><p><span>선임연구원</span></p></li>
+                            <li><p><span>책임연구원</span></p></li>
+                            <li><p><span>수석연구원</span></p></li>
+                            <li><p><span>연구위원</span></p></li>
+                        </ul>
+                        
+                        <ul class="sys2">
+                            <li><p><span>분석 전문직</span></p></li>
+                            <li><p><span>연구원</span></p></li>
+                            <li><p><span>선임연구원</span></p></li>
+                            <li><p><span>책임연구원</span></p></li>
+                        </ul>
+                    </div>
+
+                    <ul class="sys3">
+                        <li>
+                            <dl>
+                                <dt>직무급 제도</dt>
+                                <dd>조직 내 직무의 상대적 가치를 평가하고 시장가치를 고려한 직무급 제도 운영</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>승격제도</dt>
+                                <dd>연공보다는 능력에 우선하여 공정하고 개인이 납득할 수 있는 승진 추구</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>평가체계</dt>
+                                <dd>역량평가 -롯데중앙연구소의 역량모델은 공통역량과 직무역량으로 구분되어 보직자의 경우 리더십 관련 역량을 평가하여 적용합니다.</dd>
+                                <dd>업적평가 -MBO(Management by Objective)제도를 운영하고 있습니다. MBO란 목표에 의한 관리를 의미하며, 조직이 달성해야 할 목표를 개인으로 Cascading 하여 달성해야 할 목표를 상사와 협의하여 수립한 뒤 지속적 모니터링을 통해 성취 결과에 대해 평가하고 피드백합니다.</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>보상제도</dt>
+                                <dd>기본적으로 연봉제를 실시하고 있으며, 본봉, 성과급, 기타 복리후생비로 구성되어 있습니다. 본봉은 시장가치에 의해 Base-Up 되며, 성과급은 MBO 평가 결과에 따라 차등 지급됩니다. 이외 기타 복리후생비가 지급됩니다.</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </article>
+
+    <? include "../common/sub_footer.html" ?>
+</body>
+</html>

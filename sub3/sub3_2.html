@@ -1,0 +1,95 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연구소이야기-zoom人</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub3_content2.css">
+    
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>연구소이야기</h3>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub3_1.html">zoom人</a></li>
+                <li class="current"><a href="./sub3_2.html">동아리</a></li>
+                <li><a href="./sub3_3.html">식품안전</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">HOME &gt; 연구소이야기 &gt; <strong>동아리</strong></div>
+                <h2>동아리</h2>
+            </div>
+
+            <div class="content_area">
+                <div class="con_top con">
+                    <ul>
+                        <li>
+                            <img src="./images/content2/baseball.jpg" alt="롯데미르">
+                            <p>롯데미르</p>
+                            <p>야구를 통한 친목도모연구소와 그룹사우들이 활동하는사회인 야구 동아리</p>
+                        </li>
+                        <li>
+                            <img src="./images/content2/soccer.jpg" alt="드림사커">
+                            <p>드림사커</p>
+                            <p>두 다리로 뛸 수만 있다면누구나 주전이 될 수 있습니다.</p>
+                        </li>
+                        <li>
+                            <img src="./images/content2/basketball.jpg" alt="농구부">
+                            <p>농구부</p>
+                            <p>“청춘과 잘 어울리는 스포츠?!”라 하면단언컨데, “농구”입니다.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="con_bottom con">
+                    <ul>
+                        <li>
+                            <img src="./images/content2/wine.jpg" alt="비노">
+                            <p>비노(Vino)</p>
+                            <p>와인을 테이스팅하면서 향기성분을
+                                표현하는 능력 및 신제품 개발 아이디어를
+                                얻으려합니다.</p>
+                        </li>
+                        <li>
+                            <img src="./images/content2/mountain.jpg" alt="산악회">
+                            <p>산악회</p>
+                            <p>나무와 풀, 바람과 바위, 하늘과공기를 느낄 수 있는...그리고 사람의 향기가 머무르는 곳...</p>
+                        </li>
+                        <li>
+                            <img src="./images/content2/culture.jpg" alt="소감">
+                            <p>소감</p>
+                            <p>소통과 교감, 문화활동을 통해생각과 이야기를 나누는 커뮤니티</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </article>
+
+    <? include "../common/sub_footer.html" ?>
+</body>
+</html>

@@ -1,0 +1,15 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+body{background: #f6f6f6;}
+.wrap{width: 700px; margin: 120px auto 0; background: #fff; border-radius: 20px}
+.wrap header h1 a{display: block; width: 292px; height: 59px; background: url(../images/headerlogo.png); text-indent: -9999px; margin: 50px auto 80px;}
+#content form li{border-bottom: 1px solid #f1f1f1; width: 80%; margin: 0 10% 40px;}
+#content input{border: 0; font-size: 18px; outline: none; margin: 10px 0 10px 10px;}
+#content form button{background: #da291c; width: 60%; margin: 50px auto 20px; border: 0; border-radius: 5px; cursor: pointer;
+    color: #fff; display: block; padding: 20px 0; font-size: 18px;}
+#content>ul{overflow: hidden; width:201px; margin: 0 auto 30px;}
+#content>ul li{float: left; font-size: 16px; color: #666;}
+#content>ul li:first-of-type{margin-right: 20px;}
+#content>div{border-top: 1px dotted #ccc; overflow: hidden;}
+#content>div span{font-size: 16px; display: block; float:left; margin: 30px 10px 30px 224px; color: #666;}
+#content>div a{font-size: 16px; display: block; float:left; margin: 30px 0 ; color: #333; text-decoration: underline;}

@@ -1,0 +1,31 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-스위트빌_스위트빌소개 */
+#content .title_area h2{margin-bottom: 100px;}
+
+#content .tabs{overflow: hidden; margin: 120px 0 100px 348px;}
+#content .tabs li{float: left;}
+#content .tabs li a.tab{display: block; width: 250px; font-family: 'Noto Sans KR', sans-serif; font-size: 1.5em; font-weight: 400; color: #333; 
+        text-align: center; padding: 20px 0; background: #f5f5f5; border: 1px solid #ccc; transition: all .5s;}
+#content .tabs li a:hover{border: 1px solid #da291c;}
+
+#content .content_area .contlist{display: none;}
+
+#content .character .main dl{position: relative; margin-bottom: 100px;}
+#content .character .main dt{font-family: 'Roboto', sans-serif; font-size: 3em; font-weight: 400; color: #fff; 
+    position: absolute; top: -540px; left: 260px;}
+#content .character .main dd{font-family: 'Noto Sans KR', sans-serif; font-size: 1.25em; font-weight: 300; color: #fff; 
+    position: absolute; top:-450px; left: 380px;}
+#content .character ul{margin-bottom: 150px;}
+#content .character ul li{overflow: hidden; margin: 40px 50px 0 50px; border-bottom: 1px solid #ccc; padding-bottom: 40px;}
+#content .character ul li:last-child{border-bottom: 0;}
+#content .character ul img{float: left;}
+#content .character ul dl{margin: 40px 100px 0 300px;}
+#content .character ul dt{font-family: 'Noto Sans KR', sans-serif; font-size: 1.625em; font-weight: bold; color: #333;
+    margin-bottom: 30px;}
+#content .character ul dd{font-family: 'Noto Sans KR', sans-serif; font-size: 1.25em; font-weight: 400; color: #333;}
+
+#content .food{margin: 0 100px 150px 100px;}
+#content .food dt{font-family: 'Noto Sans KR', sans-serif; font-size: 1.625em; font-weight: bold; color: #333;
+    margin: 50px 0;}
+#content .food dd{font-family: 'Noto Sans KR', sans-serif; font-size: 1.25em; font-weight: 400; color: #333; 
+    margin-bottom: 20px;}
+#content .food iframe{width: 1000px; height: 550px;}

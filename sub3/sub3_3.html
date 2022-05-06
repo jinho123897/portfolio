@@ -1,0 +1,100 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연구소이야기-식품안전</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub3_content3.css">
+    
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>연구소이야기</h3>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub3_1.html">zoom人</a></li>
+                <li><a href="./sub3_2.html">동아리</a></li>
+                <li class="current"><a href="./sub3_3.html">식품안전</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">HOME &gt; 연구소이야기 &gt; <strong>zoom人</strong></div>
+                <h2>식품안전</h2>
+                <p>롯데중앙연구소는 안전한 먹거리 제공을 위하여 소비자가 안심하고 선택할 수 있는 LOTTE 가 될 수 있도록 노력하고 있습니다.</p>
+            </div>
+
+            <div class="content_area">
+             <ul>
+                 <li>
+                     <img src="./images/content3/developmment.jpg" alt="">
+                     <div>
+                         <dl>
+                             <dt>연구개발Story</dt>
+                             <dd>롯데중앙연구소에서는 깐깐한 분석을 수행하여 안전이 입증된 원료만을 선정합니다. 롯데의 ‘안심 제품’이 되기 위해서 고품질 원료의 선정하여 개발팀에서  소비자에게 가치 있는 제품을 제공하고자 노력하고 있습니다. </dd>
+                         </dl>
+                         <p>Developmment</p>
+                     </div>
+                 </li>
+                 <li>
+                     <div>
+                         <dl>
+                             <dt>품질안전Story</dt>
+                             <dd>롯데그룹 제조사는 식품의 안전성 확보를 위하여 식품의 원료, 제조 과정의 식품오염이나 유해물질의 혼입 방지를  위하여 꼼꼼하게 위해 요소 중점 관리를 실시하고 있습니다.</dd>
+                         </dl>
+                         <p>Quality and Safety</p>
+                     </div>
+                     <img src="./images/content3/quality.jpg" alt="">
+                     
+                 </li>
+                 <li>
+                     <img src="./images/content3/distribution.jpg" alt="">
+                     <div>
+                         <dl>
+                             <dt>유통안전Story</dt>
+                             <dd>안전한 제품 My site 제도로 소비자가 안심하고 선택할 수 있도록 꼼꼼하게 유통매장 관리를 하고 있습니다.</dd>
+                         </dl>
+                         <p>Distribution Safety</p>
+                     </div>
+                 </li>
+                 <li>
+                     <div>
+                         <dl>
+                             <dt>식품안전Story</dt>
+                             <dd>국가의 식품안전 법규와 글로벌 규격 이상의 깐깐함으로 무장한 LOTTE Standard Check list를 통한 제조 공장과 유통 매장 및 외식 매장의 관리를 수행하여 세계 어디서나 안전한 식품을 소비자에게 제공하고자 노력하고 있습니다.</dd>
+                         </dl>
+                         <p>Food Safety</p>
+                     </div>
+                     <img src="./images/content3/food.jpg" alt="">
+                 </li>
+             </ul>
+                 
+            </div>
+            
+        </article>
+
+    <? include "../common/sub_footer.html" ?>
+    
+</body>
+</html>

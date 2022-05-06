@@ -1,0 +1,134 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연구소안내-연구소소개</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content3.css">
+    
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>연구소안내</h3>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub1_1.html">인사말</a></li>
+                <li><a href="./sub1_2.html">비전</a></li>
+                <li class="current"><a href="./sub1_3.html">연구소소개</a></li>
+                <li><a href="./sub1_4.html">연혁</a></li>
+                <li><a href="./sub1_5.html">오시는길</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">HOME &gt; 연구소안내 &gt; <strong>연구소소개</strong></div>
+                <h2>연구소소개</h2>
+            </div>
+
+            <div class="content_area">
+
+                <div class="content_top">
+                    <h4>국내 최고의 종합식품연구소</h4>
+                    <img src="./images/content3/rndcenter.jpg" alt="롯데중앙연구소센터">
+                    <p> 롯데중앙연구소는 최신 연구설비를 갖추고 있으며 우수한 식품 전문가들로 구성된 국내 최고의 종합식품연구소입니다. 연구분야는 크게 기초연구, 제품개발, 안전센터로 이루어져 있으며 최근에는 제품개발뿐만 아니라 신 성장동력 발굴을 위하여 기초부문에 집중하고 있습니다.소비자가 안전한 제품을 안심하고 접할 수 있도록 하는 안전센터도 중요한 역할을 담당하고 있습니다</p>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>“풍요로운 삶” 을 위한 지난 30년</dt>
+                                <dd>지난 30여 년 동안 소비자와 가장 가까운 곳에서 함께 한 롯데식품은 소비자의 풍요로운 삶을 위하여 지속적인 노력을 하고 있습니다. </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>식품 산업의 미래를 향한 도전</dt>
+                                <dd>“Better Food, Better Life”라는 가치를 내걸고 식품산업의 미래를 개척하고자 노력하고 있습니다.
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>식품 산업의 미래를 향한 도전</dt>
+                                <dd>롯데는 국내를 넘어 세계를 선도하기 위해 글로벌 시장에 진입하였습니다. 고객의 기대를 결코 저버리지 않는 롯데중앙연구소가 되겠습니다.
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="content_bottom">
+                    <h4>연구소 역활</h4>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>품질개선</dt>
+                                <dd>기존 제품에서 머무르지
+                                    않고,보다 더 좋은 맛과
+                                    건강을 위하여 제품 개
+                                    선 연구를 진행합니다.</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>신제품개발</dt>
+                                <dd>창의적 아이디어로 새
+                                    로운 제품을 기획하고 
+                                    개발합니다.</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>원가개선</dt>
+                                <dd>품질은 높이고 제품 가
+                                    격은 낮출 수 있도록 다
+                                    양한 절감방안을 찾는 
+                                    노력을 합니다.</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>안전관리</dt>
+                                <dd>식품 위생 및 안전
+                                    관리를 위하여 철저한 
+                                   관리 감독을진행합니다.</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>기술확보</dt>
+                                <dd>식품산업을 이끌 최고의
+                                    기술력 확보를 위하여 선
+                                   진기술을 습득하고 기존
+                                    노하우를 연구를 합니다.</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </article>
+
+        <? include "../common/sub_footer.html" ?>     
+        
+</body>
+</html>

@@ -1,0 +1,29 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-연구활동_연구분야 */
+
+#content{font-family: 'Noto Sans KR', sans-serif;}
+
+#content .title_area h2::before{content: ''; display: block; position: absolute; left: 599px; top: 250px; width: 50px; height: 2px; 
+    background: #da291c;}
+#content .title_area p{font-size: 2.125em; font-weight: 400; color: #333; text-align: center; margin-bottom: 80px;}
+#content .title_are span{color: #da291c;}
+
+#content .content_area>div{overflow: hidden; margin-bottom: 100px;}
+#content .content_area>div dt{font-size: 1.875em; font-weight: bold; color: #333; margin: 20px 0 30px; border-bottom: 1px solid #ccc;}
+#content .content_area>div dd{font-size: 1.25em; font-weight: 400; color: #333; margin-bottom: 20px; text-align: justify; line-height: 1.8em;}
+#content .content_area>div span{color: #da291c;}
+
+
+#content .strategy img{float: left;}
+#content .strategy dl{width: 590px; float: left; margin-left:50px;}
+
+
+#content .development dl{width: 590px; float: left; margin-right:50px;}
+#content .development img{float: right;}
+
+
+#content .basic img{float: left; }
+#content .basic dl{width: 590px; float: left; margin-left:50px;}
+
+
+#content .safety dl{width: 590px; float: left; margin-right:50px;}
+#content .safety img{float: right;}

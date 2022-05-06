@@ -1,0 +1,39 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-인재채용_채용정보 */
+
+#content{font-family: 'Noto Sans KR', sans-serif;}
+
+#content .title_area h2::before{content: ''; display: block; position: absolute; left: 599px; top: 250px; width: 2px; height: 60px; 
+    background: #da291c;}
+#content .title_area p{font-size: 1.9em; font-weight: 400; color: #333; text-align: center; margin: 120px 200px 120px;}
+
+#content .talent h3{font-size: 1.875em; font-weight: bold; color: #333; position: relative; margin: 0 0 80px 40px;}
+#content .talent h3::before{content: ''; display: block; position: absolute; left: -30px; top: 5px; width: 14px; height: 34px; 
+    background: #da291c;}
+#content .talent ul{overflow: hidden; margin-left: 80px;}
+#content .talent li{float: left; margin-right: 100px;}
+#content .talent li:last-child{margin-right: 0;}
+#content .talent img{width: 250px; height: 250px;}
+#content .talent p{font-size: 1.25em; font-weight: 400; color: #333; margin-top: 30px; text-align: center; padding: 20px;
+    background: rgba(218, 41, 28, .5); border-radius: 10px;}
+
+#content .system h3{font-size: 1.875em; font-weight: bold; color: #333; position: relative; margin: 120px 0 50px 40px;}
+#content .system h3::before{content: ''; display: block; position: absolute; left: -30px; top: 5px; width: 14px; height: 34px; 
+    background: #da291c;}
+#content .system div p:first-child{font-size: 1.5em; font-weight: 400; color: #333; margin-right: 50px;}
+#content .system div ul{overflow: hidden; position: relative;}
+#content .system div .sys1:before{content: ''; display: block; position: absolute; left: 0; top: 120px; width: 1000px; height: 2px; 
+    background: #ccc; z-index: -1;}
+#content .system div .sys2:before{content: ''; display: block; position: absolute; left: 0; top: 120px; width: 600px; height: 2px; 
+    background: #ccc; z-index: -1;}
+#content .system div li{float: left; width: 180px; height: 180px; border-radius: 50%; background: linear-gradient(#f6ac0d,#da291c);
+     margin: 30px 20px 40px 0; position: relative;}
+#content .system div li p{width: 170px; height: 170px; border-radius: 50%; background: #fff;
+    margin: 5px;}
+#content .system div li p span{font-size: 1em; font-weight: 400; color: #333; display: block; 
+    text-align: center; padding-top: 65px;}
+#content .system dl{margin: 50px 0 60px 40px;}
+#content .system dt{font-size: 1.5em; font-weight: 400; color: #333; position: relative;}
+#content .system dt:before{content: ''; display: block; position: absolute; left: -30px; top: 8px; width: 10px; height: 24px; 
+    background: #da291c;}
+#content .system dd{font-size: 1em; font-weight: 400; color: #333; line-height: 1.8em; margin: 20px 100px 0 0; text-align: justify;}
+#content .system .sys3{margin-bottom: 150px;}

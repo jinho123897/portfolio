@@ -1,0 +1,78 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연구소안내-오시는길</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content5.css">
+    
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=87e45a84660e00032cf9a72e2cb7d68b"></script>
+    <script src="./js/map.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>연구소안내</h3>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub1_1.html">인사말</a></li>
+                <li><a href="./sub1_2.html">비전</a></li>
+                <li><a href="./sub1_3.html">연구소소개</a></li>
+                <li><a href="./sub1_4.html">연혁</a></li>
+                <li class="current"><a href="./sub1_5.html">오시는길</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">HOME &gt; 연구소안내 &gt; <strong>오시는길</strong></div>
+                <h2>오시는길</h2>
+            </div>
+
+            <div class="content_area">
+                <div class="map">
+                    <div id="map"></div>
+                </div>
+
+                <p class="adress"><i class="fas fa-map-marker-alt"></i> 서울특별시 강서구 마곡중앙로 201 (지번 : 서울특별시 강서구 마곡동 756)</p>
+
+                <div class="con">
+                    <div>
+                        <p><i class="fas fa-bus"></i><span> 버스 이용시</span></p>
+                        <p>서남물재생센터 하차 도보 2분</p>
+                        <p>간선 : 642</p>
+                        <p>지선 : 6631, 6712</p>
+                    </div>
+                    <div>
+                        <p><i class="fas fa-subway"></i><span> 전철 이용시</span></p>
+                        <p>9호선 마곡나루역 2번출구 도보 5분</p>
+                    </div>
+                </div>
+            </div>
+                
+            
+        </article>
+
+        <? include "../common/sub_footer.html" ?>
+    
+</body>
+</html>

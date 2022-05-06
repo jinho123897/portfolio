@@ -1,0 +1,55 @@
+/*  sub4 공통 - 비주얼/서브네비/타이틀영역  */
+
+
+.wrap #headerArea{background: #fff; border-bottom: 1px solid #ccc;}
+#gnb ul.dropdownmenu{float:left; width: 100%; height: 220px;}
+#gnb ul.dropdownmenu li.menu{position:relative;float:left;width:16.66%; height: 50px;}
+#gnb ul.dropdownmenu li a.depth1{display:block; font-size: 1.5em; font-weight: bold; color: #333; padding: 10px 0; 
+			text-align: center; transition: all .5s;}
+
+
+/* 2depth */
+#gnb ul.dropdownmenu li ul{width:100%; height:200px; position:absolute;top:50px;left:0;
+		padding:15px 0; line-height:2em; display:none;}
+
+#gnb ul.dropdownmenu li ul li{text-align:center; font-weight:bold;}
+#gnb ul.dropdownmenu li ul li a{display:block; font-size: 1.25em; font-weight: 400; color: #333; transition: all .5s;}
+#gnb ul.dropdownmenu li ul li a:hover{color: #da291c;}
+
+.visual{width:2000px; margin-top: 220px; position: relative; 
+    left: 50%; margin-left: -1000px; top: 0;} 
+.visual h3{position: absolute; left: 940px; top: 120px; text-align: center; font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 2em; color: #fff; font-weight: 400;}
+
+.sub_menu{width: 1200px; margin: 0 auto; position: relative; top: -60px; margin-bottom: -60px;}
+.sub_menu ul{margin-left: 420px; overflow: hidden;}
+.sub_menu li{float: left; width: 180px;}
+.sub_menu li a{display: block; font-family: 'Noto Sans KR', sans-serif; font-size: 1.25em; color: #fff; font-weight: 400; padding: 15px 0 16px; text-align: center; 
+    transition: all .5s; background: rgba(0, 0, 0, .3);}
+.sub_menu li a:hover{background: #fff; color: #333; font-weight: bold;}
+.sub_menu .current a{ background: #fff; color: #333; font-weight: bold; border-top: 5px solid #da291c; box-sizing: content-box; padding: 10px 0 16px;}
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 150px;}
+#content .line_map{position: absolute; left: 140px; top: 40px; font-family: 'Noto Sans KR', sans-serif; font-size: .875em; font-weight: 300;
+    color: #666;}
+#content h2{text-align: center; font-family: 'Noto Sans KR', sans-serif; font-size: 3.125em; font-weight: bold; color: #333; margin-bottom: 60px;}
+
+.content_area form{width: 1000px; margin: 100px auto 150px; font-family: 'Noto Sans KR', sans-serif; font-size: 1em; color: #333; font-weight: 400;}
+.content_area form ul li{overflow: hidden; margin-bottom: 10px;}
+.content_area form ul li div{float: left;}
+.content_area form ul li div:first-of-type{width: 300px; background: #f1f1f1; font-size: 1.125em; text-align: center; padding: 10px 0; margin-right: 10px;}
+.content_area form ul li textarea{border: 1px solid #ccc; width: 680px; height: 240px;}
+.content_area form ul #write_row1 .col2{padding: 10px;}
+.content_area form ul #write_row1 .col3{float: right;}
+.content_area form ul #write_row2, #write_row3{overflow: hidden;}
+.content_area form ul #write_row2 .col1{float: left;}
+.content_area form ul #write_row2 .col2{float: right;}
+.content_area form ul #write_row2 input{border: 1px solid #ccc; padding: 12px 0; width: 683px;}
+.content_area form ul #write_row3 .col1{float: left; height: 225px;}
+.content_area form ul #write_row3 .col2{float: right;}
+
+.content_area #write_button{overflow: hidden; margin: 30px 0 0 810px ;}
+.content_area #write_button a{display: block; text-align:center; padding: 5px 0; border: 1px solid #da291c; background: #da291c; 
+    font-family: 'Noto Sans KR', sans-serif; font-size: 1em; color: #fff; width: 78px; float: right; border-radius: 5px; margin-right: 10px;}
+

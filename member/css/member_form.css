@@ -1,0 +1,23 @@
+body{background: #f6f6f6;}
+
+header>h1>a{margin: 50px auto; display: block; width: 292px; height: 59px;}
+
+#content{width: 1000px; margin: 0 auto;background: #fff;}
+
+#content h2{margin: 0 0 20px 8%; padding-top: 50px; font-family: 'Noto Sans KR', sans-serif; font-size: 2em; font-weight: bold; position: relative;}
+#content h2::before{content: ''; position: absolute; top: 60px; left: -20px; width: 5px; height: 30px;
+      background: #da291c;}
+
+#content form>span{margin-left: 700px; padding-bottom: 10px; display: block; font-size: 14px;}
+#content table{width: 90%; margin: 0 5%}
+#content table th,td{border: 1px solid #ccc; padding: 10px;}
+#content table tr:last-of-type td{border: 0; overflow: hidden;}
+#content table tr a{display: block; padding: 15px; background: #da291c; width: 200px; float: left; margin: 20px 10px 50px 245px; 
+      color: #fff; font-size: 14px;}
+#content table tr a:last-of-type{background: #333; margin: 20px 0 50px 0;}
+#content table tr{overflow: hidden;}
+#content table tr div{float: right;}
+th{width: 20%; background: #f6f6f6; font-family: 'Noto Sans KR', sans-serif; font-size: 1.125em; font-weight: 400; position: relative;}
+td{width: 80%}
+input, select{padding: 10px; border-radius: 2px; font-size: 1em; border: 0; background: #f1f1f1; width: 150px; }
+table tr:last-child td{text-align: center; padding: 20px 0}

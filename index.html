@@ -1,0 +1,377 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롯데중앙연구소</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./maincss/main.css">
+    
+    <script src="./common/js/prefixfree.min.js"></script>
+    <script src="./mainjs/mainpopup.js"></script>
+</head>
+<body>
+        <? include "./common/main_header.html" ?>
+
+        <div class="visual">
+            <div class="gallery">
+                <ul>
+                     <li class="link1"><img src="./images/visual1.jpg" alt='' >
+                        <div>
+                            <span>Food Frontier, See the Future</span>
+                            <span>롯데 중앙연구소는 바른푸드의 미래를 봅니다.</span>
+                        </div>
+                    </li>
+                     <li class="link2"><img src="./images/visual2.jpg" alt='' >
+                        <div>
+                            <span>Food Frontier, See the Future</span>
+                            <span>롯데 중앙연구소는 바른푸드의 미래를 봅니다.</span>
+                        </div>
+                    </li>
+                     <li class="link3"><img src="./images/visual3.jpg" alt='' >
+                        <div>
+                            <span>Food Frontier, See the Future</span>
+                            <span>롯데 중앙연구소는 바른푸드의 미래를 봅니다.</span>
+                        </div>
+                    </li>
+                     <li class="link4"><img src="./images/visual4.jpg" alt='' >
+                        <div>
+                            <span>Food Frontier, See the Future</span>
+                            <span>롯데 중앙연구소는 바른푸드의 미래를 봅니다.</span>
+                        </div>
+                    </li>
+               </ul>
+            </div>
+      
+            <div class="dock">
+                <span class="mbutton  btn1" ></span>
+                <span class="mbutton  btn2" ></span>
+                <span class="mbutton  btn3" ></span>
+                <span class="mbutton  btn4" ></span>
+                <span class="ps"></span>
+            </div>
+        </div>
+
+        <article id="content">
+            <h2 class="hidden">본문콘텐츠영역</h2>
+            
+            <div class="safetyStory">
+                <h3>식품안전<span>STORY</span></h3>
+                <div class="safetyStory_box">
+                    <ul>
+                        <li>
+                            <img src="./images/safetyStory1.jpg" alt="">
+                            <dl>
+                            <dt>연구개발</dt>
+                            <dd><span>롯데중앙연구소에서는 깐깐한 분석을 수행하여 안전이 입증된 원료만을 선정합니다.</span></dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <img src="./images/safetyStory2.jpg" alt="">
+                            <dl>
+                                
+                                <dt>품질안전</dt>
+                                <dd><span>식품의 안전성 확보를 위하여 식품의 원료를 꼼꼼하게 위해 요소 중점 관리를 실시하고 있습니다.</span></dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <img src="./images/safetyStory3.jpg" alt="">
+                            <dl>
+                                <dt>유통안전</dt>
+                                <dd><span>My site 제도로 소비자가 안심하고 선택할 수 있도록 꼼꼼하게 유통매장 관리를 하고 있습니다.</span></dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <img src="./images/safetyStory4.jpg" alt="">
+                            <dl>
+                                <dt>식품안전</dt>
+                                <dd><span>국가의 식품안전 법규와 글로벌 규격 이상의 깐깐함으로 무장한 LOTTE Standard Check list</span></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    
+                </div>
+                
+            
+                    <a href="./sub3/sub3_3.html">스토리 더보기</a>
+                
+                
+            </div>
+
+            <div class="product">
+                <h3>제품소개</h3>
+
+                <ul class="tabs">
+                    <li><a class="tab tab1" href="#">제과</a></li>
+                    <li><a class="tab tab2" href="#">음료</a></li>
+                    <li><a class="tab tab3" href="#">푸드</a></li>
+                    <li><a class="tab tab4" href="#">주류</a></li>
+                </ul>
+
+                <div class="productContent">
+                    <div class="productList">
+                        <ul class="contlist">
+                            <li>
+                                <img src="./images/snack1.jpg" alt="드림카카오 녹차">
+                                <dl>
+                                    <dt>드림카카오 녹차</dt>
+                                    <dd>드림카카오는 카카오의 진한 맛과 향이 살아있는 하...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/snack2.jpg" alt="유산균 쇼콜라">
+                                <dl>
+                                    <dt>유산균 쇼콜라</dt>
+                                    <dd>국내 최초, 살아있는 유산균이 들어있는 초콜릿이다.</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/snack3.jpg" alt="요구르트 젤리">
+                                <dl>
+                                    <dt>요구르트 젤리</dt>
+                                    <dd>요구르트 젤리는 롯데제과(주)와 세븐일레븐이 협...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/snack4.jpg" alt="빼빼로 바닐라 블랙">
+                                <dl>
+                                    <dt>빼빼로 바닐라 블랙</dt>
+                                    <dd>빼빼로는 1983년 초코빼빼로 이후로 아몬드, 누드등...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/snack5.jpg" alt="팜온더로드 통넛츠바">
+                                <dl>
+                                    <dt>팜온더로드 통넛츠바</dt>
+                                    <dd>믿을수 있는 좋은 농장에서 자란 자연의 원물을 독창...</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        
+                        <ul class="contlist">
+                            <li>
+                                <img src="./images/beverage1.jpg" alt="프로바이오틱요구르트">
+                                <dl>
+                                    <dt>프로바이오틱 요구르트</dt>
+                                    <dd>오직 단 하나의 재료, 우유만을 발효해서 만든 자연...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/beverage2.jpg" alt="델몬트파머스주스바">
+                                <dl>
+                                    <dt>델몬트 파머스 주스바</dt>
+                                    <dd>농축환원 주스와 차별화한 프리미엄 주스로 무균충...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/beverage3.jpg" alt="엄마의 마음 위드맘">
+                                <dl>
+                                    <dt>엄마의 마음 위드맘</dt>
+                                    <dd>아기를 생각하는 엄마의 마음을 대신하여 제품에 첨...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/beverage4.jpg" alt="초가을 우엉차">
+                                <dl>
+                                    <dt>초가을 우엉차</dt>
+                                    <dd>경상남도 진주에서 재배한 100% 국산 우엉을 겉껍...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/beverage5.jpg" alt="목장우유">
+                                <dl>
+                                    <dt>목장우유</dt>
+                                    <dd>친환경 무항생제 인증 목장 원유 100%</dd>
+                                </dl>
+                            </li>
+                        </ul>
+
+                        <ul class="contlist">
+                            <li>
+                                <img src="./images/food1.jpg" alt="라퀴진 함박스테이크">
+                                <dl>
+                                    <dt>라퀴진 함박스테이크</dt>
+                                    <dd>두툼하게 다져낸 돼지고기를 정성껏 빚어 부드러운...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/food2.jpg" alt="AZ버거 오리지널">
+                                <dl>
+                                    <dt>AZ버거 오리지널</dt>
+                                    <dd>호주청정우로 만들어진 육즙 가득한 빅 사이즈 순...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/food3.jpg" alt="간장불고기 도시락">
+                                <dl>
+                                    <dt>간장불고기 도시락</dt>
+                                    <dd>선호도 높은 반찬(불고기, 돈까스, 소시지볶음, 볼...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/food4.jpg" alt="의성마늘 베이컨">
+                                <dl>
+                                    <dt>의성마늘 베이컨</dt>
+                                    <dd>의성마늘과 천일염으로 베이컨 특유의 고소함과 건...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/food5.jpg" alt="모짜렐라 인 더 버거">
+                                <dl>
+                                    <dt>모짜렐라 인 더 버거</dt>
+                                    <dd>자연산 모짜렐라 치즈에 고소한 해쉬브라운, 두툼...</dd>
+                                </dl>
+                            </li>
+                        </ul>
+
+                        <ul class="contlist">
+                            <li>
+                                <img src="./images/alcohol1.jpg" alt="순하리 처음처럼 유자">
+                                <dl>
+                                    <dt>처음처럼 유자</dt>
+                                    <dd>'순하리 처음처럼 유자'는 천연유자농축액과 유자...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/alcohol2.jpg" alt="훈와리 경월">
+                                <dl>
+                                    <dt>훈와리 경월</dt>
+                                    <dd>훈와리 경월(ふんわり 鏡月)은 일본의 독특한 음...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/alcohol3.jpg" alt="클라우드">
+                                <dl>
+                                    <dt>클라우드</dt>
+                                    <dd>클라우드는 한국을 대표하는 맥주를 선보이고자 한...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/alcohol4.jpg" alt="처음처럼">
+                                <dl>
+                                    <dt>처음처럼</dt>
+                                    <dd>처음처럼은 술을 마신 다음날에도 몸 상태가 원래...</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/alcohol5.jpg" alt="설중매">
+                                <dl>
+                                    <dt>설중매</dt>
+                                    <dd>설중매는 매실의 명산지인 광양, 순천지역에서 직접...</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>       
+            </div>
+
+            <? include "./lib/func.php"; ?>
+
+            <div class="community">
+                <div class="community_box">
+                    <div class="notice">
+                        <h3><span class="letter_fst">N</span>OTICE<span class="mini">공지사항</span> </h3>
+                        <ul>
+                            <? latest_article("greet", 4, 30, 1); ?>
+                        </ul>
+                        <a class="more" href="./greet/list.php">more</a>
+                    </div>
+                    
+                    <div class="news">
+                        <h3><span class="letter_fst">N</span>EWS<span class="mini">새로운소식</span></h3>
+                        <ul>
+                            <? latest_article("concert", 1, 40, 2); ?>
+                        </ul>
+                        <a class="more" href="./concert/list.php">more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recruit">
+                <h3>인재채용</h3>
+                <P>현실에 안주하지 않고 젊음과 열정을 바탕으로 늘 새로운 것에 <br>
+                대한 호기심을 가지고 연구하는 열정적인 인재를 추구합니다.</p>
+                <a href="./sub5/sub5_1.html">채용정보 더보기</a>
+            </div>
+
+            <div class="sweetVill">
+                <h3>스위트빌</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./images/sweetVill1.jpg" alt="열기구 영상관">
+                            <dl>
+                                <dt>열기구영상관</dt>
+                                <dd>열기구를 타고 스위트빌로 떠나는 즐거운 열기구 여행을 3면 영상을 통해 실감나게 체험할 수 있어요.</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/sweetVill2.jpg" alt="식품체험존">
+                            <dl>
+                                <dt>식품체험존</dt>
+                                <dd>과학 원리와 효능, 만드는 방법 등을인터렉티브 영상 컨텐츠를 통해 어린이눈높이에서 재미있게  체험할 수 있어요.</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/sweetVill3.jpg" alt="롯데중앙연구소체험존">
+                            <dl>
+                                <dt>롯데중앙연구소체험존</dt>
+                                <dd>롯데중앙연구소의 연구비밀을 위티와 
+                                    함께하는 영상, 마법돋보기, 제품개발 
+                                    체험으로 만나 볼 수 있어요</dd>
+                            </dl>
+                        </a>
+                    </li>
+                </ul>
+                <div class="more_box">
+                    <a href="./sub6/sub6_1.html">스위트빌 더보기</a>
+                </div>
+            </div>
+
+        </article>
+
+        <? include "./common/main_footer.html" ?> 
+        <script src="./mainjs/move.js"></script>
+        <script src="./mainjs/tab.js"></script>
+
+    <!-- 공지사항 팝업 -->
+
+    <div id="showimage" style="z-index:99;position:absolute;width:322px;right:300px;top: 350px;">
+        <script>
+          function closeWin(){
+             var chk = document.getElementById('Notice')
+             if ( chk.checked ) {
+                   setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+              }
+          }
+         if ( getCookie( "Notice" ) == "done" ) {
+             hidebox();
+         }
+       </script>
+          <div>
+                <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+          </div>
+           <div style="font-size:12px;text-align:center;color:#666;">
+             <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+           <a href="#"  onclick="closeWin();hidebox();return false;"> [close] </a>
+        </div>
+      </div>
+
+    
+
+
+</body>
+</html>

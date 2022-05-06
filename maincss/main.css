@@ -1,0 +1,126 @@
+/* 비주얼 영역 */
+*{margin:0; padding:0;}
+img{border:0; vertical-align:top;}
+ul{list-style: none;}
+.visual{position: relative; width: 2000px; height: 950px; top: 0; left: 50%; margin-left: -1000px; overflow: hidden;}
+
+
+.gallery{position:relative;left:0; top:0; overflow:hidden; width: 2000px; height: 950px;}
+.gallery li{display:none; position: relative;}
+
+.gallery img{animation: ani 30s linear infinite;}
+@keyframes ani {
+    from {transform: scale(1);}
+    to {transform: scale(1.5);}
+}
+
+.gallery li div{position: absolute; left: 450px; top: 500px; }
+.gallery li div span:first-child{display: block; font-family: 'Roboto', sans-serif; font-size: 40px; font-weight: bold; 
+    color: #fff; text-shadow: 3px 3px 3px #333;}
+.gallery li div span:last-child{font-family: 'Noto Sans KR', sans-serif; font-size: 30px; font-weight: 400; color: #fff;
+    text-shadow: 3px 3px 3px #333;}
+.dock{width:330px; position:absolute; left:950px; top:880px;}
+
+.dock .mbutton{ margin-right:15px; cursor:pointer; 
+    display:block; float:left; width:16px; height:16px;
+   background: #fff; border-radius:8px;
+  transition: all .5s}
+
+.dock .ps{margin-right:30px; margin-top: -5px; cursor:pointer; 
+    display:block; float:left; width: 25px; height:25px;
+    background:url(../images/pause.png) no-repeat;}
+
+
+
+
+/* 본문 콘텐츠 영역 */
+#content{width: 1200px; margin: 0 auto;}
+
+#content .safetyStory{width: 2000px; position: relative; left: 50%; top: 0; margin-left: -1000px;
+    background: #f6f6f6; overflow: hidden; font-family: 'Noto Sans KR', sans-serif;}
+#content .safetyStory h3{margin-top: 110px; text-align: center; font-size: 2.5em; font-weight: bold;}
+#content .safetyStory h3 span{color: #00a288;}
+#content .safetyStory a{display: block; width: 200px; border: 3px solid #00a288; border-radius: 50px;font-size: 1em; 
+    font-weight: 400; color: #666; text-align: center; padding: 18px 0; margin: 50px auto 110px; transition: all .5s;}
+#content .safetyStory a:hover{background: #00a288; color: #fff;}
+#content .safetyStory_box ul{overflow: hidden; padding-top: 50px;}
+#content .safetyStory_box li{float: left; margin-right: 20px; position: relative;}
+#content .safetyStory_box li:first-child{margin-left: 430px;}
+#content .safetyStory_box dt{font-size: 1.5em; font-weight: 400; margin-top:30px; text-align: center;}
+#content .safetyStory_box dd{position: absolute; left: 0; top: 0; width: 270px; height:270px; background:rgba(0, 0, 0, .6);
+    font-size: 1em; font-weight: 300; line-height: 1.5em; text-align: center; color: #fff; border-radius: 50%; opacity: 0;
+    transition: all .5s; transform: scale(1.0);}
+#content .safetyStory_box dd:hover{opacity: 1; transform: scale(1.05);}
+#content .safetyStory_box dd span{display: block; margin: 100px 30px 0;}
+
+#content .product{width: 1200px; font-family: 'Noto Sans KR', sans-serif;}
+#content .product h3{margin: 110px auto 50px; text-align: center; font-size: 2.5em; font-weight: bold;}
+#content .product .tabs{overflow: hidden;}
+#content .product .tabs li{float: left; margin-right: 30px; font-size: 1.5em; font-weight: bold;}
+#content .product .tabs li:first-child{margin-left: 472px;}
+#content .product .tabs li a{display: block; transition: all .5s;}
+#content .product .tabs li a:hover{color: #00a288;}
+#content .product .productList ul{overflow: hidden; padding: 30px 0 160px 30px;}
+#content .product .productList ul li{float: left; width: 220px; margin-right: 10px; 
+    box-shadow: 2px 2px 8px 1px rgb(0,0,0,.2); transform: scale(1); transition: all .5s;}
+#content .product .productList ul li:hover{transform: scale(1.05);}
+#content .product .productList img{margin: 30px 5px;}
+#content .product .productList dt{font-size: 1.2em; font-weight: bold; text-align: center;}
+#content .product .productList dd{font-size: 1em; font-weight: 400; color: #666; margin: 20px 20px 30px; text-align: justify;}
+#content .product .productList a{display: block;}
+#content .product .productList .contlist{display: none;}
+
+
+#content .community{width: 2000px; position: relative; left: 50%; top: 0; margin-left: -1000px;
+    background: #f6f6f6; font-family: 'Noto Sans KR', sans-serif; font-family: 'Roboto', sans-serif;}
+#content .community .community_box{width: 1138px; background: #fff; position: relative; left: 430px; top: -50px; 
+    border: 1px solid #ccc; border-top-right-radius: 100px; overflow: hidden;}
+#content .community .community_box div{float: left;}
+#content .community .community_box h3{font-size: 2.5em; font-weight: bold; margin-top: 50px;}
+#content .community .community_box .letter_fst{color: #00a288;}
+#content .community .community_box .mini{display: block; font-size: 20px; color: #999; font-weight: 300; margin: 10px 0 30px;}
+
+#content .notice{margin: 0 100px 0 50px; position: relative;}
+#content .notice .more{display: block; position: absolute; right: 0; top: 110px; 
+    font-size: 1em; font-weight: 300; color: #999;}
+#content .notice .more:hover{text-decoration: underline;}
+#content .notice li{padding: 20px 0; border-bottom: 1px solid #999; width: 481px;}
+#content .notice li:last-child{padding: 20px 0 50px; border: 0;}
+#content .notice li dt{font-size: 1em; font-weight: bold; margin-bottom: 10px;}
+#content .notice li dd{font-size: .875em; font-weight: 300; color: #666;}
+
+#content .news{position: relative;}
+#content .news .more{display: block; position: absolute; right: 0; top: 110px; 
+    font-size: 1em; font-weight: 300; color: #999;}
+#content .news .more:hover{text-decoration: underline;}
+#content .news img{margin: 30px 0; width: 460px; height: 220px;}
+#content .news li dt{font-size: 1em; font-weight: bold; margin-bottom: 10px;}
+#content .news li dd{font-size: .875em; font-weight: 300; color: #666;}
+
+#content .recruit{width: 2000px; height: 500px; position: relative; top: 0;
+    left: 50%; margin-left: -1000px; background: url(../images/recruit.jpg) center no-repeat;
+    background-attachment: fixed; background-size: cover; font-family: 'Noto Sans KR', sans-serif;}
+#content .recruit h3{padding: 110px 0 50px 932px; font-size: 2.5em; font-weight: bold; color: #fff;}
+#content .recruit p{font-size: 1.5em; font-weight: 400; color: #fff; text-align: center;}
+#content .recruit a{display: block; width: 200px; border: 3px solid #00a288; font-size: 1em; 
+    font-weight: 400; color: #fff; text-align: center; padding: 18px 0; margin: 50px auto 0; transition: all .5s;}
+#content .recruit a:hover{background: #00a288;}
+
+#content .sweetVill{width: 1200px; font-family: 'Noto Sans KR', sans-serif;}
+#content .sweetVill h3{margin: 110px 0 50px; text-align: center; font-size: 2.5em; font-weight: bold;}
+#content .sweetVill ul{overflow: hidden;}
+#content .sweetVill li{float: left; margin: 0 15px 30px 0; position: relative; overflow: hidden;}
+#content .sweetVill li:first-child{margin-left: 30px;}
+#content .sweetVill dl{background:rgba(0, 0, 0, .6); width: 370px; height: 299px; position: absolute; left: 0; top: 215px;
+    transition: all 1s; padding-top: 0;}
+#content .sweetVill li:hover dl{top: 0; padding-top: 40px;}
+#content .sweetVill dt{font-size: 1.5em; color: #fff; text-align: center; padding: 30px 0 30px;}
+#content .sweetVill dd{font-size: 1em; font-weight: 400; color: #fff; text-align: justify; margin: 0px 83px;}
+#content .sweetVill .more_box a{display: block; width: 200px; border: 3px solid #00a288; border-radius: 50px;font-size: 1em; 
+    font-weight: 400; color: #666; text-align: center; padding: 18px 0; margin: 50px auto 110px; transition: all .5s;}
+#content .sweetVill .more_box a:hover{background: #00a288; color: #fff;}
+
+
+
+
+

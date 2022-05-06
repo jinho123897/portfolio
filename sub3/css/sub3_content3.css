@@ -1,0 +1,28 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-연구소이야기_식품안전 */
+
+#content{font-family: 'Noto Sans KR', sans-serif;}
+#content .title_area h2::before{content: ''; display: block; position: absolute; left: 599px; top: 230px; width: 1px; height: 60px; 
+    background: #da291c;}
+#content .title_area p{font-size: 2em; font-weight: 400; color: #333; text-align: center; margin: 80px 120px 100px;}
+
+#content .content_area ul{margin-bottom: 150px;}
+#content .content_area li{overflow: hidden;}
+#content .content_area img{float: left; border-radius: 30px; margin-bottom: 100px;
+    box-shadow: 2px 2px 8px 1px rgb(0,0,0,.8); transition: all 1s;}
+#content .content_area li:hover img{transform: scale(1.02);}
+#content .content_area div{float: left;}
+#content .content_area img:first-child{margin-right: 50px;}
+#content .content_area img:nth-child(2){margin-left: 40px;}
+#content .content_area img:nth-child(3){margin-right: 50px;}
+#content .content_area img:last-child{margin-left: 40px;}
+#content .content_area dl{float: left; width: 550px; position: relative;}
+#content .content_area dt{font-size: 1.875em; font-weight: bold; color: #333; margin: 30px 0;}
+#content .content_area dt::before{content: ''; display: block; position: absolute; left: 0; top: 35px; width: 200px; height: 35px; 
+    background: #da291c; z-index: -1; opacity: 0; transition: all 1s;}
+    #content .content_area li:hover dt::before{opacity: .5;}
+#content .content_area dd{font-size: 1.125em; font-weight: 400; color: #333; line-height: 1.8em; text-align: justify; margin-bottom: 100px;}
+#content .content_area p{font-family: 'Roboto', sans-serif; font-size: 4em; font-weight: bold; color: #666; opacity: .6;}
+
+
+
+

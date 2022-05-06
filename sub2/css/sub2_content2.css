@@ -1,0 +1,27 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-연구활동_히트상품*/
+
+.content_area{margin: 120px 0 150px; font-family: 'Noto Sans KR', sans-serif;}
+.content_area h4{font-size: 1.875em; font-weight: bold; margin: 120px 0 50px; position: relative;}
+.content_area h4::before{content: ''; display: block; position: absolute; left: -25px; top: 8px; width: 10px; height: 30px; 
+    background: #da291c;}
+.content_area ul{overflow: hidden; }
+.content_area ul li{float:left; margin-right: 37px; overflow: hidden;}
+.content_area ul li:last-of-type{margin-right: 0;}
+.content_area ul li img{transition: all .5s;}
+.content_area ul li img:hover{transform: scale(1.05);}
+.content_area ul li p{text-align: center; margin-top: 20px; font-size: 22px;}
+
+
+
+.content_area .box{width: 100%; height: 100%; background: rgba(0,0,0,.7); position: fixed; left: 0; top: 0; display: none; z-index: 10;}
+
+.content_area .big{width: 800px; border: 10px solid #da291c; background: #fff; position: fixed; left: 50%;
+    margin-left: -400px; top:40%; overflow: hidden; display: none; z-index: 20; border-radius: 10px}
+
+.content_area .big img{float: left; width: 300px; margin: 80px 20px 50px 40px;}
+.content_area .big dl{float: right;width: 400px; margin: 80px 40px 50px 0;}
+.content_area .big dl dt{font-size: 1.25em; font-weight: bold; border-bottom: 1px solid #ccc; margin-bottom: 30px; padding-bottom: 5px;}
+.content_area .big dl dd{font-size: 1em; font-weight: 400; margin-bottom: 10px; line-height: 2em;}
+
+.content_area .big .closeBtn{display:block; position: absolute; top: 0; right: 0; font-size: 30px; 
+    background: #da291c; color: #fff; padding: 0 20px; border-bottom-left-radius: 5px;}

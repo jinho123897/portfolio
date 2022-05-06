@@ -1,0 +1,78 @@
+/*  sub4 공통 - 비주얼/서브네비/타이틀영역  */
+
+
+.wrap #headerArea{background: #fff; border-bottom: 1px solid #ccc;}
+#gnb ul.dropdownmenu{float:left; width: 100%; height: 220px;}
+#gnb ul.dropdownmenu li.menu{position:relative;float:left;width:16.66%; height: 50px;}
+#gnb ul.dropdownmenu li a.depth1{display:block; font-size: 1.5em; font-weight: bold; color: #333; padding: 10px 0; 
+			text-align: center; transition: all .5s;}
+
+
+/* 2depth */
+#gnb ul.dropdownmenu li ul{width:100%; height:200px; position:absolute;top:50px;left:0;
+		padding:15px 0; line-height:2em; display:none;}
+
+#gnb ul.dropdownmenu li ul li{text-align:center; font-weight:bold;}
+#gnb ul.dropdownmenu li ul li a{display:block; font-size: 1.25em; font-weight: 400; color: #333; transition: all .5s;}
+#gnb ul.dropdownmenu li ul li a:hover{color: #da291c;}
+
+.visual{width:2000px; margin-top: 220px; position: relative; 
+    left: 50%; margin-left: -1000px; top: 0;} 
+.visual h3{position: absolute; left: 940px; top: 120px; text-align: center; font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 2em; color: #fff; font-weight: 400;}
+
+.sub_menu{width: 1200px; margin: 0 auto; position: relative; top: -60px; margin-bottom: -60px;}
+.sub_menu ul{margin-left: 420px; overflow: hidden;}
+.sub_menu li{float: left; width: 180px;}
+.sub_menu li a{display: block; font-family: 'Noto Sans KR', sans-serif; font-size: 1.25em; color: #fff; font-weight: 400; padding: 15px 0 16px; text-align: center; 
+    transition: all .5s; background: rgba(0, 0, 0, .3);}
+.sub_menu li a:hover{background: #fff; color: #333; font-weight: bold;}
+.sub_menu .current a{ background: #fff; color: #333; font-weight: bold; border-top: 5px solid #da291c; box-sizing: content-box; padding: 10px 0 16px;}
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 150px;}
+#content .line_map{position: absolute; left: 140px; top: 40px; font-family: 'Noto Sans KR', sans-serif; font-size: .875em; font-weight: 300;
+    color: #666;}
+#content h2{text-align: center; font-family: 'Noto Sans KR', sans-serif; font-size: 3.125em; font-weight: bold; color: #333; margin-bottom: 60px;}
+
+.content_area form #list_search{overflow: hidden; border: 1px solid #ccc; width: 1000px; margin: 80px auto 0; padding: 20px 0; border-radius: 7px;}
+.content_area form #list_search div{float: left;}
+.content_area form #list_search1 select{width: 80px; font-family: 'Noto Sans KR', sans-serif; font-size: 1em; font-weight: 400; padding: 5px 0;
+    border: 1px solid #ccc; margin-left: 260px;}
+.content_area form #list_search2 input{width: 300px; font-family: 'Noto Sans KR', sans-serif; font-size: 1em; font-weight: 400; padding: 6px 0;
+    border: 1px solid #ccc; margin-left: 10px;}
+.content_area form #list_search3 button{width: 80px; font-family: 'Noto Sans KR', sans-serif; font-size: 1em; font-weight: 400; padding: 7px 0;
+    background: #da291c; color: #fff; border: 0; border-radius: 3px; margin-left: 10px;}
+
+.content_area .list_sub{overflow: hidden; width: 1000px; margin: 70px auto 20px;}
+.content_area .list_sub #total{float: left; font-family: 'Noto Sans KR', sans-serif; font-size: 1em; font-weight: 400;}
+.content_area .list_sub #total span{font-weight: bold;}
+.content_area .list_sub select{float: right; font-family: 'Noto Sans KR', sans-serif; font-size: 1em; font-weight: 400;}
+
+.content_area #list_top_title{overflow: hidden; width: 1000px; margin: 0 auto; border-top: 1px solid #333; background: #f1f1f1;}
+.content_area #list_top_title li{float: left; font-family: 'Noto Sans KR', sans-serif; font-size: 1.125em; font-weight: bold; border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; padding: 18px 0; text-align: center;}
+.content_area #list_top_title #list_title1{width: 80px;}
+.content_area #list_top_title #list_title2{width: 640px;}
+.content_area #list_top_title #list_title3{width: 100px;}
+.content_area #list_top_title #list_title4{width: 100px;}
+.content_area #list_top_title #list_title5{width: 80px;}
+
+.content_area #list_item{overflow: hidden; width: 1000px; margin: 0 auto;}
+.content_area #list_item div{float: left; font-family: 'Noto Sans KR', sans-serif; font-size: 1.125em; font-weight: 400; border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; text-align: center; height: 70px; padding-top: 45px;}
+.content_area #list_item #list_item1{width: 80px;}
+.content_area #list_item #list_item2{width: 640px; overflow: hidden; height: 95px; padding-top: 20px;}
+.content_area #list_item #list_item2 a{display: block; float: left;}
+.content_area #list_item #list_item2 a:last-of-type{padding: 25px 0;}
+.content_area #list_item #list_item2 a:first-of-type img{display: block; width: 150px; height: 80px; margin: 0 50px 0 30px;}
+.content_area #list_item #list_item3{width: 100px; height: 70px; padding-top: 45px;}
+.content_area #list_item #list_item4{width: 100px; height: 70px; padding-top: 45px;}
+.content_area #list_item #list_item5{width: 80px; }
+
+.content_area #page_button{text-align: center; margin: 50px 0; font-family: 'Noto Sans KR', sans-serif; font-size: 1em; font-weight: 400;}
+.content_area #button{overflow: hidden; margin-right: 100px;}
+.content_area #button a{font-family: 'Noto Sans KR', sans-serif; font-size: 1em; font-weight: 400; display: block; width: 80px; padding: 5px 0;
+    float: right; margin-right: 10px; border: 1px solid #da291c; background: #da291c; border-radius: 3px; color: #fff; transition: .5s all;}
+.content_area #button a:hover{background: #fff; color: #da291c;}
+

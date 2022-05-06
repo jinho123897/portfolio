@@ -1,0 +1,35 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-연구소안내_연혁 */
+
+#content{font-family: 'Noto Sans KR', sans-serif;}
+#content .tabs{overflow: hidden; margin: 80px 0 70px 223px;}
+#content .tabs li{float: left;}
+#content .tabs a.tab{display: block; width: 250px; font-size: 1.5em; font-weight: 400; color: #333; 
+        text-align: center; padding: 20px 0; background: #f5f5f5; border: 1px solid #ccc; transition: all .5s;}
+#content .tabs li a:hover{border: 1px solid #da291c;}
+
+
+#content .content_area .contlist{position: relative; display: none;}
+#content .content_area .contlist img{position: absolute; left: 540px; top: 230px;}
+#content .content_area .contlist h4{font-size: 2.5em; font-weight: bold; color: #333; text-align: center; margin-bottom: 60px; position: relative;}
+#content .content_area .contlist h4::after{content: ''; display: block; width: 100px; height: 8px; position: absolute; left: 550px; top: 60px;
+        background: #da291c;}
+#content .content_area .contlist p{font-size: 2.125em; font-weight: 400; color: #333; text-align: center; margin-bottom: 50px;}
+#content .content_area .contlist ul li:first-child{margin-left: 660px;}
+#content .content_area .contlist dt{font-size: 1.875em; font-weight: bold; color: #da291c;}
+#content .content_area .contlist dd{font-size: 1.25em; font-weight: 400; color: #333;}
+
+
+#content .history1 ul li:nth-child(2n){text-align: right; margin-right:660px; margin-top: 85px;}
+#content .history1 ul li:nth-of-type(3){margin: 85px 0 0 660px;}
+#content .history1 ul li:nth-of-type(5){margin: 90px 0 0 660px;}
+#content .history1 ul li:nth-of-type(7){margin: 90px 0 200px 660px;}
+
+
+#content .history2 ul li:nth-child(2){text-align: right; margin-right:660px; margin-top: 90px;}
+#content .history2 ul li:nth-child(3){margin: 90px 0 0 660px;}
+#content .history2 ul li:last-child{text-align: right; margin: 90px 660px 200px 0;}
+
+
+#content .history3 ul li:nth-child(2){text-align: right; margin-right:660px; margin-top: 90px;}
+#content .history3 ul li:nth-child(3){margin: 90px 0 0 660px;}
+#content .history3 ul li:last-child{text-align: right; margin: 90px 660px 200px 0;}

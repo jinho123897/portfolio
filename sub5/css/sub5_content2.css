@@ -1,0 +1,31 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-인재채용_복리후생 */
+
+#content .title_area h2::before{content: ''; display: block; position: absolute; left: 599px; top: 240px; width: 2px; height: 60px; 
+    background: #da291c;}
+#content .title_area p{font-family: 'Noto Sans KR', sans-serif; font-size: 1.875em; font-weight: 400; color: #333;
+    text-align: center; margin: 100px 0 ;}
+#content .title_area p span{color: #da291c;}
+
+#content .content_area .con_top{margin-bottom: 100px; background: #f6f6f6; width: 2000px; position: relative; top: 0;
+    left: 50%; margin-left: -1000px;}
+#content .content_area .con_top div{padding: 100px 0 100px 400px;}
+#content .content_area .con_top p{font-family: 'Noto Sans KR', sans-serif; font-size: 1.375em; font-weight: 400; color: #333; position: relative;
+    margin: 0 0 20px 50px;}
+#content .content_area .con_top p::before{content: ''; display: block; position: absolute; left: -20px; top: 5px; 
+    width: 8px; height: 24px; background: #da291c;}
+#content .content_area .con_top ul{overflow: hidden; margin-left: 60px;}
+#content .content_area .con_top li{float: left; width: 200px; height: 230px; margin: 30px; border: 1px solid #ccc;
+    border-radius: 10px; background: #fff; box-shadow: 2px 2px 8px 1px rgb(0,0,0,.2);}
+#content .content_area .con_top dt{font-family: 'Noto Sans KR', sans-serif; font-size: 1.125em; font-weight: 400; color: #333;
+    text-align: center; margin: 0 30px; padding: 20px 0; border-bottom: 2px solid #da291c;}
+    #content .content_area .con_top dd{font-family: 'Noto Sans KR', sans-serif; font-size: 1em; font-weight: 400; color: #333;
+        text-align: justify; margin: 0 30px; padding-top: 10px;}
+
+#content .content_area .con_bottom{margin-bottom: 150px;}
+#content .content_area .con_bottom dl{overflow: hidden; position: relative;}
+#content .content_area .con_bottom dt{font-family: 'Noto Sans KR', sans-serif; font-size: 1.375em; font-weight: 400; color: #333;
+    margin: 0 0 20px 50px;}
+#content .content_area .con_bottom dt::before{content: ''; display: block; position: absolute; left: 20PX; top: 5px; 
+    width: 8px; height: 24px; background: #da291c;} 
+#content .content_area .con_bottom dd{font-family: 'Noto Sans KR', sans-serif; font-size: 1.125em; font-weight: 400; color: #333;
+   margin: 0 0 50PX 60PX;}

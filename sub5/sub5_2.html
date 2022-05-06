@@ -1,0 +1,125 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인재채용-복리후생</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content2.css">
+    
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>인재채용</h3>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub5_1.html">채용정보</a></li>
+                <li class="current"><a href="./sub5_2.html">복리후생</a></li>
+                <li><a href="./sub5_3.html">FAQ</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">HOME &gt; 인재채용 &gt; <strong>복리후생</strong></div>
+                <h2>복리후생</h2>
+                <p>미래의 <span>식문화</span>를 선도하는 <span>창의적</span>인 인재</p>
+            </div>
+
+            <div class="content_area">
+
+                <div class="con_top">
+                    <div>
+                        <p>복리후생</p>
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>휴양시설</dt>
+                                    <dd>연중 휴가제 실시 및 콘도 등 휴양소 운영</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>자기계발지원</dt>
+                                    <dd>MBA, 석사 및 박사과정 수업료 지원</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>휴일휴가</dt>
+                                    <dd>정기휴가 및 연차휴가, 출산휴가, 의무육아휴직, 리프레시 휴가, 경조휴가 등</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>학자금 지원</dt>
+                                    <dd>자녀 학비 전액지원 (고등학교, 대학교)</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>사내 활동지원</dt>
+                                    <dd>사내 동아리 및 멘토링 활동 지원</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>사내 제도</dt>
+                                    <dd>가족사랑의 날 (매주 수요일)</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>기타 복리후생</dt>
+                                    <dd>각종선물 (명절 및 근로자의 날), 건강진단, 중식대 등</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <ul class="con_bottom">
+                    <li>
+                        <dl>
+                            <dt>연구소 교육</dt>
+                            <dd>입문교육(OJT), 직무교육(CDP), 현장교육, 해외연수, 사내어학교육, 마케팅교육, 기타법정교육 등</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>롯데교육</dt>
+                            <dd>Grade교육,핵심인재교육(MBA ,직무School), 여성리더십과정, 사이버교육, 정보화교육 등</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            
+        </article>
+
+    <? include "../common/sub_footer.html" ?>
+
+    <script src="./js/faq.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-연구소안내_인사말 */
+
+#content .title_area h2::before{content: ''; display: block; position: absolute; left: 580px; top: 250px; width: 40px; height: 5px; 
+    background: #da291c; transform: rotate(-45deg);}
+    
+#content .content_area{overflow: hidden;}
+#content .content_area img{border: 10px solid #da291c; margin-left: 30px; float: left;}
+#content .content_area div{float: right; width: 690px; background: #f6f6f6; padding: 50px; margin: 50px 30px 150px 0;}
+#content .content_area p{font-family: '돋움' ; font-size: 1.125em; font-weight: 300; text-align: justify; margin-bottom: 30px;
+    line-height: 1.5em;}
+#content .content_area p:last-child{margin-left: 430px;}
+#content .content_area span{color: #da291c;}
+#content .content_area p:nth-child(4){font-family: 'Noto Sans KR', sans-serif; font-weight: 400;}
+#content .content_area p:last-child span{color: #333; font-family: 'Noto Sans KR', sans-serif; font-size: 1.5em; font-weight: bold;}
+#content .title_area p{text-align: center; font-family: 'Noto Sans KR', sans-serif; font-size: 1.875em; font-weight: 400; margin-bottom: 100px; }
+#content .title_area span{color: #da291c;}

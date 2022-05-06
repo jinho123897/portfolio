@@ -1,0 +1,23 @@
+
+body{background: #f6f6f6;}
+#wrap{width: 700px; margin: 80px auto 0; background: #fff; border-radius: 20px; overflow: hidden;}
+#wrap h1 a{display: block; width: 292px; height: 59px; background: url(../images/headerlogo.png); text-indent: -9999px; margin: 50px auto 60px;}
+#title p{text-align: center; font-size: 16px;}
+form input{outline: none; border: 0; background: #f1f1f1; font-size: 16px;}
+#login2 .find_name, .find_id{width: 40%; height: 50px; margin: 50px 0 30px 10%}
+#login2 .find_id{margin-left: 0;}
+form .telBox{width: 80%; margin: 0 10%;}
+form .telBox select{width: 20%; height: 50px; outline: none; border: 0; background: #f1f1f1;}
+form .telBox input{width: 30%; height: 50px;}
+#id_input_button .find{display: block; width: 80%; height: 40px; background: #da291c; margin: 50px auto 40px; color: #fff; 
+    text-align: center; font-size: 16px; border-radius: 5px; }
+form #loadtext{text-align: center; width: 500px; overflow: hidden; margin: 20px 0 20px -250px;
+    position: relative; left: 50%; border-radius: 10px; display: block; padding: 20px 0; line-height: 1.5em;}
+.go{overflow: hidden; width: 80%; margin: 0 10% 20px;}
+.go li:first-of-type{float: left;}
+.go li:last-of-type{float: right;}
+#join_button{width: 80%; margin: 0 auto; border-top: 1px solid #ccc; padding: 70px 0 30px;}
+#join_button p{text-align: center; font-size: 16px;}
+#join_button a{display: block; background: #da291c; margin: 20px 0; color: #fff; 
+    text-align: center; font-size: 16px; border-radius: 5px; padding: 10px 5px;}
+

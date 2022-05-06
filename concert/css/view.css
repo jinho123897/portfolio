@@ -1,0 +1,53 @@
+/*  sub4 공통 - 비주얼/서브네비/타이틀영역  */
+
+
+.wrap #headerArea{background: #fff; border-bottom: 1px solid #ccc;}
+#gnb ul.dropdownmenu{float:left; width: 100%; height: 220px;}
+#gnb ul.dropdownmenu li.menu{position:relative;float:left;width:16.66%; height: 50px;}
+#gnb ul.dropdownmenu li a.depth1{display:block; font-size: 1.5em; font-weight: bold; color: #333; padding: 10px 0; 
+			text-align: center; transition: all .5s;}
+
+
+/* 2depth */
+#gnb ul.dropdownmenu li ul{width:100%; height:200px; position:absolute;top:50px;left:0;
+		padding:15px 0; line-height:2em; display:none;}
+
+#gnb ul.dropdownmenu li ul li{text-align:center; font-weight:bold;}
+#gnb ul.dropdownmenu li ul li a{display:block; font-size: 1.25em; font-weight: 400; color: #333; transition: all .5s;}
+#gnb ul.dropdownmenu li ul li a:hover{color: #da291c;}
+
+.visual{width:2000px; margin-top: 220px; position: relative; 
+    left: 50%; margin-left: -1000px; top: 0;} 
+.visual h3{position: absolute; left: 940px; top: 120px; text-align: center; font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 2em; color: #fff; font-weight: 400;}
+
+.sub_menu{width: 1200px; margin: 0 auto; position: relative; top: -60px; margin-bottom: -60px;}
+.sub_menu ul{margin-left: 420px; overflow: hidden;}
+.sub_menu li{float: left; width: 180px;}
+.sub_menu li a{display: block; font-family: 'Noto Sans KR', sans-serif; font-size: 1.25em; color: #fff; font-weight: 400; padding: 15px 0 16px; text-align: center; 
+    transition: all .5s; background: rgba(0, 0, 0, .3);}
+.sub_menu li a:hover{background: #fff; color: #333; font-weight: bold;}
+.sub_menu .current a{ background: #fff; color: #333; font-weight: bold; border-top: 5px solid #da291c; box-sizing: content-box; padding: 10px 0 16px;}
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 150px;}
+#content .line_map{position: absolute; left: 140px; top: 40px; font-family: 'Noto Sans KR', sans-serif; font-size: .875em; font-weight: 300;
+    color: #666;}
+#content h2{text-align: center; font-family: 'Noto Sans KR', sans-serif; font-size: 3.125em; font-weight: bold; color: #333; margin-bottom: 60px;}
+
+.content_area>div{width: 1000px; margin: 0 auto;}
+
+.content_area>div #view_title1{font-family: 'Noto Sans KR', sans-serif; font-size: 1.125em; font-weight: 500;
+    border-top: 1px solid #333; background: #f1f1f1; padding: 15px 20px;}
+.content_area>div #view_title2{overflow: hidden; border-bottom: 1px solid #ccc;}
+.content_area>div #view_title2 li{float: left; font-family: 'Noto Sans KR', sans-serif; font-size: 1em; font-weight: 400; padding: 15px 20px;}
+.content_area>div #view_title2 li:last-of-type{float: right; }
+
+.content_area #view_content{padding: 50px 20px; border-bottom: 1px solid #ccc; margin-bottom: 40px; font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1em; font-weight: 400; line-height: 2em; text-align: justify;}
+
+.content_area #view_button{overflow: hidden; margin: 0 0 150px 630px;}
+.content_area #view_button a{display: block; width: 80px; padding: 8px 0; text-align: center; background: #da291c;  font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1em; font-weight: 400; color: #fff; float: left; margin-right: 10px; border: 1px solid #da291c; border-radius: 3px; transition: all .5s;}
+.content_area #view_button a:hover{background: #fff; color: #da291c}
+

@@ -1,0 +1,55 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고객참여-아이디어제안</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub4common.css">
+    <link rel="stylesheet" href="./css/sub4_content1.css">
+    
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+        <? include "../common/sub_header.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>고객참여</h3>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li class="current"><a href="./sub4_1.html">아이디어제안</a></li>
+                <li><a href="./sub4_2.html">뉴스&amp;공지사항</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">HOME &gt; 고객참여 &gt; <strong>아이디어제안</strong></div>
+                <h2>아이디어제안</h2>
+                <p>게시판</p>
+            </div>
+
+            <div class="content_area">
+
+            </div>
+            
+        </article>
+
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>

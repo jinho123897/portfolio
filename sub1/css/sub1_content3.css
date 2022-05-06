@@ -1,0 +1,26 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-연구소안내_연구소소개 */
+
+#content{font-family: 'Noto Sans KR', sans-serif;}
+#content .title_area{position: relative;}
+#content .title_area h2::before{content: ''; display: block; position: absolute; left: 560px; top: 250px; width: 80px; height: 4px; 
+     background: #da291c;}
+
+#content .content_top h4{font-size: 1.875em; font-weight: bold; color: #333; text-align: center; margin: 100px 0 50px;}
+#content .content_top img{margin: 0 50px 60px 50px;}
+#content .content_top p{font-size: 1.125em; color: #333; margin: 0 200px; text-align: center; line-height: 1.5em;}
+#content .content_top ul{overflow: hidden;}
+#content .content_top li{float: left; width: 260px; height: 260px; background: #da291c; border-radius: 50%; margin: 100px 100px 295px 0;} 
+#content .content_top li:first-child{margin-left: 110px;}
+#content .content_top dl{width: 240px; height: 240px; border: 1px dashed #fff; border-radius: 50%; margin: 10px;}
+#content .content_top dt{font-size: 1.75em; font-weight: bold; color: #fff; text-align: center; padding: 60px 35px 0;}
+#content .content_top dd{font-size: 1.125em; color: #333; line-height: 1.5em; margin-top: 100px; text-align: justify;}
+
+#content .content_bottom{}
+#content .content_bottom h4{font-size: 1.875em; font-weight: bold; color: #333; margin: 0 0 50px 70px ; position: relative;}
+#content .content_bottom h4::before{content: ''; display: block; position: absolute; top: 9px; left: -30px; width: 10px; height: 30px; background: #da291c;}
+#content .content_bottom ul{overflow: hidden;}
+#content .content_bottom li{float: left; margin-bottom: 150px;}
+#content .content_bottom li:first-child{margin-left: 50px;}
+#content .content_bottom dl{width: 198px; height: 300px; border: 2px solid #ccc; border-radius: 10px; margin-right: 25px;}
+#content .content_bottom dt{font-size: 1.5em; font-weight: 400; margin: 30px 20px 20px; text-align: center; padding-bottom: 10px; border-bottom: 2px solid #da291c;}
+#content .content_bottom dd{font-size: 1.125em; color: #666; padding: 0 20px; text-align: justify; line-height: 1.5em;}

@@ -1,0 +1,82 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스위트빌-스위트빌소개</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub6common.css">
+    <link rel="stylesheet" href="./css/sub6_content3.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+
+    
+
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+        <? include "../common/sub_header.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>스위트빌</h3>
+        </div>
+
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub6_1.html">스위트빌소개</a></li>
+                <li><a href="./sub6_2.html">스위트빌이야기</a></li>
+                <li class="current"><a href="./sub6_3.html">견학안내</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">HOME &gt; 스위트빌 &gt; <strong>스위트빌소개</strong></div>
+                <h2>견학안내</h2>
+            </div>
+
+            <div class="content_area">
+
+                <div class="guide">
+                    <h3>견학안내사항</h3>
+                    <ul>
+                        <li>코로나바이러스-19 방역 휴관으로, 20년 4월 예약 20년 3월 1일 오전 11시 미진행(오픈일정 추후 공지)</li>
+                        <li><span>신청일</span> : 매월 1일 오전 11시 익월 예약 시작 (회원가입 불필요 / 휴대폰 본인인증 후 신청)</li>
+                        <li><span>대상</span> : 출생년도 기준 6세~10세 (2020년도 : 2011년생 ~ 2015년생)</li>
+                        <li><span>견학 시간</span> : 평일(월~금) 오전 10:00~11:30 , 오후 3:00~4:30 / 공휴일 제외</li>
+                        <li>체험은 정시에 시작되며 15분 경과 시 입장이 불가하니 시간을 꼭! 지켜주시기 바랍니다.</li>
+                        <li><span>신청 가능 인원</span> : 1인 최대 어린이 2명, 보호자 2명 (총 4명) / 보호자는 성인만 해당</li>
+                        <li><span>단체 신청</span> : 어린이집, 유치원, 학교 등 법인단체 한정 / 어린이 최소 10명~최대 20명까지 신청 가능<br>
+                            (추후 단체 확인을 통하여 법인단체가 아닐 시 예약이 취소될 수 있습니다.)</li>
+                        <li><span>신청 정보</span> : 보호자 연락처, e-mail, 어린이 이름, 생년월일, 알레르기 여부 / 추후 수정 불가하오니 정확히 기입해주시기 바랍니다.</li>
+                        <li>신청완료 즉시 안내 문자가 전송됩니다. 문자 미수신 고객은 예약 미완료일 수 있으니 예약 여부를 꼭 확인해주시기 바랍니다.<br>
+                            (견학신청 페이지 우측 상단 `견학신청 확인/취소` 클릭 → 휴대폰 본인인증 후 확인 가능)</li>
+                    </ul>
+                </div>
+
+                <div class="calendar_box">
+                    <div id="calendar">
+                
+                    </div>
+                </div>
+                
+            </div>
+            
+        </article>
+
+        <? include "../common/sub_footer.html" ?>
+        <script src="./js/main.min.js"></script>
+        <script src="./js/calendar.js"></script>
+</body>
+</html>
