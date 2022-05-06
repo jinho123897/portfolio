@@ -1,0 +1,444 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+#videoBG {
+   position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100; /*다른요소보다 아래에 위치*/
+  
+}
+
+#imgBG{
+	position: fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+   display:none
+}
+
+.down{
+   display: block; 
+   font-family: 'Saira Condensed', sans-serif;
+   font-size: 20px; 
+   position: absolute; 
+	left:50%; margin-left: -50px; bottom: 15%;
+	animation:ani 1s infinite  alternate;}
+.down img{
+   display: block;
+   width: 70px;
+   position: absolute;
+   bottom: 25%;
+   left: 50%;
+   margin-left: -28px;
+}
+@keyframes ani {
+	0% { transform:scale(1); opacity:0.8; color:#888;}
+	100% { transform:scale(1.2); opacity:1; color: #fff;}
+}	
+	
+
+#content{
+   padding-top: 150px;
+   width:100%; 
+   font-family: 'Saira Condensed', sans-serif;
+}
+
+#content .strategy{
+   overflow: hidden;
+   width: 90%;
+   margin: 0 5%;
+   background: rgba(0, 0, 0, .9);
+   border-radius: 30px;
+   position: relative;
+}
+#content .strategy h3{
+   font-size: 3.125rem;
+   font-weight: bold;
+   color: #fff;
+   margin: 80px 0 80px; 
+   text-align: center;
+}
+#content .strategy>div{
+   overflow:hidden;
+   width: 94%;
+   margin: 0 3%;
+}
+#content .strategy p{
+   font-size: 1.375rem;
+   font-weight: 400;
+   color: #fff;
+   line-height: 2rem;
+}
+#content .strategy p div{
+   overflow: hidden;
+   height: 400px;
+}
+
+#content .strategy>div:first-of-type{
+   margin-bottom: 50px;
+}
+
+#content .strategy>div:first-of-type div{
+   background: url(../images/strategy1.jpg) no-repeat center;
+   background-size: cover;
+   width: 38%;
+   margin-right: 2%;
+   height: 380px; 
+   float: left;
+}
+#content .strategy>div:first-of-type p{
+   float: right;
+   width: 60%;
+}
+
+#content .strategy>div:last-of-type{
+   margin-bottom: 80px;
+}
+
+#content .strategy>div:last-of-type div{
+   background: url(../images/strategy2.jpg) no-repeat center;
+   background-size: cover;
+   width: 38%;
+   height: 325px;
+   float: right;
+}
+
+#content .strategy>div:last-of-type p{
+   float: left;
+   width: 58%;
+   margin-right: 4%;
+}
+
+#content .strategy a{
+   display: block;
+   font-size: 1.5rem;
+   font-weight: 500;
+   color: #fff;
+   position: absolute;
+   bottom: 120px;
+   left: 25%;
+   transition: all .5s;
+}
+#content .strategy a:hover{
+   color: #ccc;
+   transform: scale(1.05);
+}
+#content .models{
+   margin-top: 150px;
+   overflow: hidden;
+   width: 100%;
+   background: rgba(0, 0, 0, .9);
+   position: relative;
+}
+#content .models h3{
+   font-size: 3.125rem;
+   font-weight: bold;
+   color: #fff;
+   margin: 80px 0 80px; 
+   text-align: center;
+}
+#content .models ul{
+   overflow: hidden;
+   width: 94%;
+   margin: 80px 3%;
+}
+#content .models li{
+   float: left;
+   width: 19%;
+   margin-right: 1.25%;
+}
+#content .models li:hover img{
+   transform: scale(1.05);
+}
+#content .models li:last-of-type{
+   margin-right: 0;
+}
+#content .models img{
+   width: 100%;
+   border-radius: 5px;
+   transition: all .5s;
+}
+#content .models dl{
+   width: 100%;
+}
+#content .models dt{
+   font-size: 1.5rem;
+   font-weight: 500;
+   color: #fff;
+   text-align: center;
+   margin: 20px 0;
+}
+#content .models dd{
+   font-size: 1.25rem;
+   font-weight: 400;
+   color: #fff;
+   text-align: center;
+   margin-bottom: 80px;
+   line-height: 2rem;
+}
+#content .models a{
+   display:block;
+   font-size:1.25rem;
+   font-weight: 400;
+   color: #fff;
+   position: absolute;
+   top: 115px;
+   right: 5%;
+   transition: all .5s;
+}
+#content .models a:hover{
+   color: #ccc;
+}
+#content .models .tablet{
+   display:none;
+}
+#content .drivers{
+   margin: 150px 0;
+   overflow: hidden;
+   width: 100%;
+   background: rgba(0, 0, 0, .9);
+   position: relative;
+}
+#content .drivers h3{
+   font-size: 3.125rem;
+   font-weight: bold;
+   color: #fff;
+   margin: 80px 0 30px; 
+   text-align: center;
+}
+#content .drivers p{
+   font-size: 1.875rem;
+   font-weight: 400;
+   color: #fff;
+   margin: 0 10%;
+   text-align: center;
+   line-height: 2rem;
+}
+#content .drivers ul{
+   overflow: hidden;
+   width: 90%;
+   margin: 0 5%;
+}
+#content .drivers li{
+   float: left;
+   margin: 50px 1.33% 80px 0;
+   width: 24%;
+   background:#fff;
+   border-radius: 10px;
+}
+#content .drivers li:nth-of-type(4n){
+   margin-right: 0;
+}
+#content .drivers img{
+   width: 100%;
+   border-radius: 10px;
+   transition: all .8s;
+}
+#content .drivers li:hover img{
+   transform: rotatey(180deg);
+}
+#content .drivers dt{
+   font-size: 1.125rem;
+   font-weight: 400;
+   color: #999;
+   margin: 20px 0 5px 20px;
+}
+#content .drivers dd{
+   font-size: 1.25rem;
+   font-weight: 400;
+   color: #333;
+   margin: 0 0 20px 20px;
+}
+#content .drivers li:last-of-type{
+   display: block;
+}
+#content .drivers i{
+   font-weight: 600;
+   display: block;
+   text-align: center;
+   font-size: 7rem;
+   color: #999;
+   opacity: .8;
+   margin-top: 45%;
+   transition: all .5s;
+}
+#content .drivers i:hover{
+   transform: scale(1.1);
+   opacity: 1;
+}
+#content .gallery{
+   margin-bottom: 150px;
+   overflow: hidden;
+   width: 100%;
+   background: rgba(0, 0, 0, .9);
+   position: relative;
+}
+#content .gallery h3{
+   font-size: 3.125rem;
+   font-weight: bold;
+   color: #fff;
+   margin: 80px 0 30px; 
+   text-align: center;
+}
+
+#content .gallery ul{
+   overflow: hidden;
+   width: 90%;
+   margin: 0 5% 80px;
+}
+#content .gallery li{
+   float: left;
+   filter: grayscale(100%);
+   transition: all .5s;
+}
+#content .gallery li:hover{
+   filter: grayscale(0);
+}
+
+#content .gallery li:nth-of-type(1){
+   background: url(../images/gallery1.jpg) no-repeat center;
+   background-size: cover;
+   width: 50%;
+   height: 400px;
+}
+#content .gallery li:nth-of-type(2){
+   background: url(../images/gallery2.jpg) no-repeat right;
+   background-size: cover;
+   width: 25%;
+   height: 200px;
+}
+#content .gallery li:nth-of-type(3){
+   background: url(../images/gallery3.jpg) no-repeat center;
+   background-size: cover;
+   width: 25%;
+   height: 200px;
+}
+#content .gallery li:nth-of-type(4){
+   background: url(../images/gallery4.jpg) no-repeat right;
+   background-size: cover;
+   width: 50%;
+   height: 200px;
+}
+#content .gallery li:nth-of-type(5){
+   background: url(../images/gallery5.jpg)no-repeat center;
+   background-size: cover;
+   width: 50%;
+   height: 250px;
+}
+#content .gallery li:nth-of-type(6){
+   background: url(../images/gallery6.jpg)no-repeat center;
+   background-size: cover;
+   width: 50%;
+   height: 250px;
+}
+
+#content .gallery a{
+   display:block;
+   font-size:1.25rem;
+   font-weight: 400;
+   color: #fff;
+   position: absolute;
+   top: 110px;
+   right: 5%;
+   transition: all .5s;
+}
+#content .gallery a:hover{
+   color: #ccc;
+}
+
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+   #content .strategy h3{margin: 80px 0 50px;}
+	#content .strategy>div:first-of-type div{display: none; width: 0;}
+   #content .strategy>div:first-of-type p{width: 100%; float: none;}
+   #content .strategy a{bottom: 80px; left: 20%;}
+
+   #content .models h3{margin: 80px 0 50px;}
+   #content .models ul{margin-top: 50px;}
+   #content .models ul li{width: 48%; margin-right: 0;}
+   #content .models ul li:nth-of-type(1){margin-right: 4%;}
+   #content .models ul li:nth-of-type(3){margin-right: 4%;}
+   #content .models ul li .pc{display: none;}
+   #content .models .tablet{display: block;}
+   #content .models li:last-of-type{display: none;}
+   #content .models ul li dl{width: 90%; margin: 0 5%;}
+   
+   #content .drivers h3{margin: 80px 0 50px;}
+   #content .drivers p{margin-bottom: 30px;}
+   #content .drivers li{width: 32%; margin: 0 2% 50px 0;}
+   #content .drivers li:nth-of-type(3n){display: none;}
+   
+   #content h3{margin: 80px 0 50px;}
+   #content .gallery ul li{filter: none;}
+   #content .gallery li:first-of-type{display: none;}
+   #content .gallery li:last-of-type{margin-bottom: 50px;}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   #content .strategy p{font-size: 1.25rem;}
+   #content .drivers p{font-size: 1.25rem;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+   .down{font-size: 16px;}
+   .down img{width: 60px; left: 40px;}
+   #content .strategy h3{margin: 50px 0 30px;}
+   #content .strategy p{font-size: 1rem;}
+   #content .strategy>div:first-of-type div{background: url(../images/strategy3.jpg); width: 100%; height: 240px; display: block; margin-bottom: 30px;}
+   #content .strategy>div:first-of-type p{text-align: center; margin-bottom: 70px}
+   #content .strategy>div:last-of-type{margin: 0;}
+   #content .strategy>div:last-of-type div{display: none; }   
+   #content .strategy>div:last-of-type p{display: none;}
+   #content .strategy a{bottom: 40px; left: 50%; margin-left: -50px;}
+
+   #content .models h3{margin: 50px 0 30px;}
+   #content .models dd{font-size: 1rem;}
+   #content .models ul{margin-top: 30px;}
+   #content .models ul li{width: auto; float: none;}
+   #content .models ul li:nth-of-type(1){margin-right: 0;}
+   #content .models ul li:nth-of-type(3){margin-right: 0;}
+   #content .models ul li:nth-of-type(4){display: none;}
+   #content .models ul li dl dt{margin-bottom: 10px;}
+   #content .models ul li dl dd{margin-bottom: 30px;}
+
+   #content .drivers h3{margin: 50px 0 30px;}
+   #content .drivers p{font-size: 1rem;}
+   #content .drivers ul li{width: 49%; margin: 0 0 30px 0;}
+   #content .drivers ul li:first-of-type{margin-right: 2%;}
+   #content .drivers ul li:nth-of-type(5){margin-right: 2%;}  
+   #content .drivers ul li:nth-of-type(4){display: none;}
+   #content .drivers ul li:nth-of-type(7){display: none;}
+
+   #content .gallery h3{margin: 50px 0 30px;}
+   #content .gallery li{display: none; filter: none;}
+   #content .gallery li:nth-of-type(3){display: block; width: 35%;}
+   #content .gallery li:nth-of-type(4){display: block; width: 65%;}
+}
+
+
+
+

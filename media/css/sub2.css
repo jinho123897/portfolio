@@ -1,0 +1,157 @@
+/* gallery 페이지 */
+
+/* 와이드pc */
+
+#imgBG{
+	position: fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+.down{
+    display: block; 
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px; 
+    position: absolute; 
+    left:50%; margin-left: -50px; bottom: 15%;
+    animation:ani 1s infinite  alternate;
+}
+.down img{
+    display: block;
+    width: 70px;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    margin-left: -28px;
+}
+@keyframes ani {
+    0% { transform:scale(1); opacity:0.8; color:#888;}
+    100% { transform:scale(1.2); opacity:1; color: #fff;}
+}	
+#content{
+    width: 100%; 
+    font-family: 'Saira Condensed', sans-serif;
+    position: relative;
+    background: rgba(0, 0, 0, .9);
+}
+#content h3{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 3px 3px 3px #666;
+    position: absolute;
+    top: -580px;
+    left: 50%;
+    margin-left: -67px; 
+}
+#content>div{
+    width: 90%;
+    margin: 0 auto;
+}
+#content>div ul{
+    width: 100%;
+    overflow: hidden;
+    padding: 30px 0 80px;
+}
+#content>div ul li{
+    float: left;
+    width: 15%;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+#content>div ul li:hover img{
+    transform: scale(.95);
+    filter: grayscale(100%);
+}
+#content>div li:last-of-type{
+    margin-right:0;
+}
+#content>div li img{
+    width: 100%;
+    border-radius: 5px;
+}
+#content>div li p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+}
+#content div div div{
+    overflow: hidden;
+    background-size: cover;
+    height: 250px;
+    width: 38%;
+    margin-right: 4%;
+    float: left;
+    border-radius: 5px;
+}
+#content div div dl{
+    width: 58%;
+    float: right;
+}
+#content div div dt{
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px 0 10px;
+}
+#content div div dd{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fff;
+}
+.s718{
+    padding-top: 80px;
+}
+.s718 div div{
+    background: url(../images/model10.jpg) no-repeat center;
+}
+.s911 div div{
+    background: url(../images/model11.jpg) no-repeat center;
+}
+.taycan div div{
+    background: url(../images/model12.jpg) no-repeat center;
+}
+.panamera div div{
+    background: url(../images/model13.jpg) no-repeat center;
+}
+.cayenne div div{
+    background: url(../images/model14.jpg) no-repeat center;
+}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #content>div ul li{width: 19%; margin-right: 1.25%;}
+    #content>div ul li:nth-of-type(5){display: none;}
+}
+
+/*소형 태블릿 */
+@media screen and (max-width:768px) {
+    #content div div div{width: 100%; float: none;}
+    #content div div dl{width: 100%; float: none;}
+    #content>div ul li{width: 24%; margin-right: 1.33%;}
+    #content>div ul li:nth-of-type(4){display: none;}
+    #content div div dt{font-size: 1.25rem;}
+    #content div div dd{font-size: 1rem;}
+    #content>div li p{font-size: .875rem;}
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    #content>div ul li{width: 32%; margin-right: 2%;}
+    #content>div ul li:nth-of-type(3){display: none;}
+}

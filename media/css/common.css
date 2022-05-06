@@ -1,0 +1,208 @@
+/* Reset CSS  */
+* { margin:0; padding:0; border:0; outline:0; vertical-align:top;
+-webkit-text-size-adjust:none;  }
+html{font-size: 16px;}
+body {font-family:'돋움', Dotum; color:#333;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ul, ol, dl { list-style:none; }
+img, video {border:0; vertical-align:top; }
+a, a:link {color:#333;text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {color:#333;text-decoration:none; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select { vertical-align:middle; }
+label { cursor:pointer; }
+.blind,legend,hr,caption { display:block; overflow:hidden; position:absolute; top:0; left:-1000em; }
+i,em,address { font-style:normal; font-weight:normal; }
+p,li,dd{ line-height:1.5em}
+.hidden, #skipNav{display: block; position: absolute; left:-1000%; top:0; width: 1px; height: 1px;
+    overflow: hidden; color: #fff;}
+
+
+
+/* 와이드 PC */
+/* 헤더 공통 영역 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Saira+Condensed:wght@400;700&family=Ubuntu:wght@700&display=swap');
+/* font-family: 'Saira Condensed', sans-serif;
+font-family: 'Ubuntu', sans-serif; 
+font-family: 'Roboto', sans-serif;*/
+#wrap{width:100%; overflow: hidden}
+#headerArea{position:fixed; z-index: 30; height: 90px;
+    background: rgba(0,0,0,.5); left:0; top: 0;
+    width: 100%
+}	
+#headerArea	.headerInner{
+    width: 90%; 
+    margin: 0 5%;
+    overflow: hidden
+}
+#headerArea h1{ 
+    float: left;
+    margin-top: 15px;
+}
+#headerArea h1 a{
+    text-decoration: none; 
+    display: block;
+    background: url(../images/header_logo.png) no-repeat;
+    width: 117px; 
+    height: 60px;
+    text-indent: -999px;
+    overflow: hidden;
+
+}
+header .menuOpen{
+    display: none;
+    float: right;
+    width: 65px;
+    height: 65px;
+    background: rgba(255,255,255,.8);
+    position: relative;
+    border-radius: 50%;
+    margin-top: 15px;
+    
+
+}
+#headerArea .menuOpen span {
+    width: 20px;
+    height: 5px;
+    background: #333;
+    position: relative;
+    text-indent: -9999px;
+    display: block;
+    margin: 30px 5px 20px 28px;
+    border-radius: 5px;
+    transition: all .3s;
+    z-index: 20;
+  }
+  #headerArea .menuOpen span::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #333;
+    position: absolute;
+    top: -11px;
+    left: -10px;
+    border-radius: 5px;
+    transition: all .3s;
+    z-index: 20;
+  }
+  #headerArea .menuOpen span::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #333;
+    position: absolute;
+    top: 11px;
+    left:-10px;
+    border-radius: 5px;
+    transition: all .3s;
+    z-index: 20;
+  }
+  /* 햄버거 메뉴 열렸을때 */
+  #headerArea.mn_open .menuOpen span, #headerArea.mn_open .menu_ham span::before, #headerArea.mn_open .menu_ham span::after {
+    background: #333;
+    transition: all .3s;
+  }
+  #headerArea.mn_open .menuOpen span {
+    background: rgba(0,0,0,0);
+    transition: all .3s;
+  }
+  #headerArea.mn_open .menuOpen span::before {
+    transform: rotate(45deg);
+    top: 0;
+    transition: all .3s;
+  }
+  #headerArea.mn_open .menuOpen span::after {
+    transform: rotate(-45deg);
+    top: 0;
+    transition: all .3s;
+  }
+#headerArea #gnb{float: right;margin-top: 40px;}
+#headerArea #gnb ul{float: left;}
+#headerArea #gnb ul li{float: left; margin-right: 30px;}
+#headerArea #gnb ul li:last-of-type{
+    margin-right: 0;
+}
+#headerArea #gnb ul li a{
+    display: block;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;    
+    font-size: 2rem;
+    color: #fff; 
+    text-decoration: none;
+}
+
+
+/* 푸터 공통 영역 */
+#footerArea{
+    position: relative;
+    background: #181d1f;
+}
+#footerArea img{
+    display: block;
+    width: 94px;
+    margin: 0 auto 20px;
+    padding-top: 50px;
+}
+#footerArea p{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+#footerArea p:first-of-type{
+    margin-bottom: 20px;
+}
+#footerArea p:last-of-type{
+    padding-bottom: 50px;
+}
+.topMove{
+    display: block; 
+    position: fixed; 
+    right: 80px;
+    bottom: 100px;
+    z-index: 50;
+  }
+  .topMove i{
+    font-size: 40px; 
+    color: #fff;
+  }
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+	#headerArea #gnb ul li a{font-size: 1.8rem; margin-top: 5px;}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    header .menuOpen{display:block}
+    #headerArea #gnb{width:100%; background:rgba(0,0,0,.5); display:none;
+               position:absolute; top:90px; left:0; margin-top: 0;}
+    #headerArea #gnb ul{width: 100%;}
+    #headerArea #gnb ul li{float:none; margin: 0;}
+    #headerArea #gnb ul li a{display: block; padding: 20px 0; text-align: center;}
+
+    .topMove i{
+      font-size: 30px; 
+      color: #fff;
+    }
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}
