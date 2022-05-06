@@ -1,0 +1,91 @@
+/* 롯데중앙연구소 인재채용-복리후생 */ 
+
+
+#content .content_area .con_top{
+    margin-bottom: 50px;
+    background: #f6f6f6; 
+}
+#content .content_area .con_top p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.429rem; 
+    font-weight: bold; 
+    color: #333; 
+    position: relative;
+    padding: 50px 0 20px 30px;
+}
+#content .content_area .con_top p::before{
+    content: ''; 
+    display: block; 
+    position: absolute; 
+    left: 15px; 
+    top: 58px; 
+    width: 6px; 
+    height: 20px; 
+    background: #da291c;
+}
+#content .content_area .con_top ul{
+    overflow: hidden; 
+    margin: 0 1%;
+    padding-bottom: 50px;
+}
+#content .content_area .con_top li{
+    float: left; 
+    width: 46%; 
+    height: 180px; 
+    margin: 1%; 
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    background: #fff; 
+    box-shadow: 2px 2px 8px 1px rgb(0,0,0,.2);
+}
+#content .content_area .con_top dt{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.143rem;
+    font-weight: 400; 
+    color: #333;
+    text-align: center; 
+    margin: 0 20px; 
+    padding: 15px 0; 
+    border-bottom: 2px solid #da291c;
+}
+#content .content_area .con_top dd{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem; 
+    font-weight: 400; 
+    color: #333;
+    text-align: justify; 
+    margin: 0 20px; 
+    padding-top: 10px;
+}
+
+#content .content_area .con_bottom{
+    margin-bottom: 80px;
+}
+
+#content .content_area .con_bottom dl{
+    position: relative;
+}
+#content .content_area .con_bottom dt{
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.429rem;
+    font-weight: bold; 
+    color: #333;
+    margin: 0 0 20px 50px;
+}
+#content .content_area .con_bottom dt::before{
+    content: ''; 
+    display: block; 
+    position: absolute; 
+    left: 30px; 
+    top: 8px; 
+    width: 6px; 
+    height: 20px; 
+    background: #da291c;
+} 
+#content .content_area .con_bottom dd{
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.143rem; 
+    font-weight: 400; 
+    color: #333;
+     margin: 0 50px 50px;
+    }

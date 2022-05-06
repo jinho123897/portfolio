@@ -1,0 +1,92 @@
+/* 롯데중앙연구소 연구활동-연구분야 */ 
+#content .title_area h3{
+    margin-bottom: 10px;
+}
+
+#content .title_area p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.571rem; 
+    font-weight: 400; 
+    color: #333; 
+    text-align: center;
+}
+#content .content_area{
+    margin-bottom: 80px;
+}
+
+#content .content_area div{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#content .content_area div dl{
+    position: absolute;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 2px 2px 8px 1px rgb(0,0,0,.2);
+    background: #fff;
+}
+
+#content .content_area div dt{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.429rem; 
+    font-weight: bold; 
+    color: #333; 
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+#content .content_area div dd{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem; 
+    font-weight: 400; 
+    color: #333; 
+    margin-bottom: 20px; 
+    text-align: justify; 
+    line-height: 1.8rem;
+}
+#content .content_area div span{
+    color: #da291c;
+}
+
+#content .content_area .strategy dl{
+    top: 20px;
+    right: -10%;
+}
+#content .content_area .strategy{
+    background: url(../images/strategyx2.png) no-repeat center;
+    background-size: cover;
+    height: 280px;
+    margin-right: 20%;
+}
+
+#content .content_area .development dl{
+    top: 20px;
+    left: -10%;
+}
+#content .content_area .development{
+    background: url(../images/developmentx2.png) no-repeat center;
+    background-size: cover;
+    height: 300px;
+    margin-left: 20%;
+}
+#content .content_area .basic dl{
+    top: 20px;
+    right: -10%;
+}
+#content .content_area .basic{
+    background: url(../images/basicx2.png) no-repeat center;
+    background-size: cover;
+    height: 350px;
+    margin-right: 20%;
+}
+
+#content .content_area .safety dl{
+    top: 20px;
+    left: -10%;
+}
+#content .content_area .safety{
+    background: url(../images/safetyx2.png) no-repeat center;
+    background-size: cover;
+    height: 300px;
+    margin-left: 20%;
+}

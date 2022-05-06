@@ -1,0 +1,90 @@
+/* 롯데중앙연구소 스위트빌-스위트빌소개 */ 
+
+.content_area .sweet{
+    background: url(../images/sweetvillx2.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.content_area .sweet div{
+    width: 90%;
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #d7d7d7;
+}
+.content_area .sweet h3{
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.429rem; 
+    font-weight: bold; 
+    color: #333; 
+    margin: 20px 0 10px 30px;
+}
+.content_area .sweet p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.143rem; 
+    font-weight: 400; 
+    color: #333;
+    text-align: justify; 
+    line-height: 1.8rem;
+    margin: 0 30px 30px;
+}
+.content_area .sweet p span{
+    color: #da291c;
+}
+
+.content_area .composition{
+    margin: 120px 0 80px;
+}
+.content_area .composition h3{
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.429rem; 
+    font-weight: bold; 
+    color: #333; 
+    margin: 0 0 40px 20px;
+    position: relative;
+}
+
+.content_area .composition h3::before{
+    content: ''; 
+    display: block; 
+    position: absolute; 
+    top: 5px; 
+    left: -15px; 
+    width: 6px; 
+    height: 20px; 
+    background: #da291c;
+}
+.content_area .composition ul{
+    overflow: hidden;
+}
+.content_area .composition li{
+    float: left; 
+    width: 48%; 
+    height: 400px;
+    margin: 0 1%;
+}
+.content_area .composition img{
+    width: 100%;
+}
+.content_area .composition dt{
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.286rem; 
+    font-weight: bold; 
+    color: #333; 
+    margin: 20px 0 10px; 
+    padding-bottom: 5px; 
+    border-bottom: 2px solid rgba(218, 41, 28, .7);
+}
+.content_area .composition dd{
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1rem; 
+    font-weight: 400; 
+    color: #333; 
+    text-align: justify; 
+    line-height: 1.8rem;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,25 @@
+/* 롯데중앙연구소 연구소안내-인사말 */ 
+
+#content span{
+    color: #da291c;
+}
+
+#content .content_area p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    text-align: justify;
+    margin: 20px 30px;
+}
+
+#content .content_area p:last-of-type{
+    margin-bottom: 80px;
+    text-align: right;
+}
+
+#content img{
+    width: 300px;
+    display: block;
+    margin: 0 auto 50px;
+}

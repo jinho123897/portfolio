@@ -1,0 +1,223 @@
+/* CSS Document *
+
+/* 비주얼 영역*/
+.wrap .visual img{
+    margin-top: 42px; 
+    width: 100%;
+}
+
+.visual .swiper-container {
+    width: 100%;
+    height: 100%;
+
+}
+.visual .swiper-slide {
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.visual .swiper-slide p{
+    position: absolute;
+    top: 70%;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.143rem; 
+    font-weight: bold; 
+    color: #fff; 
+    text-shadow: 3px 3px 3px #333;
+}
+
+/* 콘텐츠 영역*/
+
+#content .safetyStory{
+    background: #eee;
+    padding-bottom: 80px;
+}
+#content .safetyStory h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+#content .safetyStory div{
+    overflow: hidden;
+    position: relative;
+    margin: 0 5px;
+}
+#content .safetyStory div img{
+    float: left;
+    width: 50%;
+}
+#content .safetyStory div img:last-of-type{
+    margin-top: 25px;
+}
+#content .safetyStory p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.429rem;
+    font-weight: 400;
+    color: #fff;
+    position: absolute;
+}
+#content .safetyStory p:first-of-type{
+    bottom: 40px; 
+    left: 15px;
+}
+#content .safetyStory p:last-of-type{
+    bottom: 15px; 
+    right: 15px;
+}
+
+#content .safetyStory a{
+    display: block; 
+    width: 100px;
+    padding: 7px 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    background: #da291c;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #999;
+    margin: 40px auto 0 auto;
+}
+
+
+#content .product{
+    margin-bottom: 40px;
+}
+#content .product h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+#content .product .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+#content .product .swiper-wrapper{
+    height: 255px;
+    margin-bottom: 80px;
+}
+#content .product .swiper-slide{
+    width: 150PX;
+    box-shadow: 0 0 10px #d7d7d7;
+    margin: 5px;
+
+}
+
+#content .product .swiper-slide img{
+    display: block;
+    margin: 5px;
+    width: 140px;
+}
+
+#content .product .swiper-slide dt{font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.143rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#content .product .swiper-slide dd{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.8rem;
+    text-align: justify;
+    margin : 7%;
+}
+
+#content .recruit{
+    background: url(../images/recruitx2.png) 0 0 no-repeat;
+    background-size: cover;
+    height: 280px;
+}
+#content .recruit h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+#content .recruit p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0 10%;
+}
+
+#content .recruit a{
+    display: block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    width: 120px;
+    border: 2px solid #da291c;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+}
+#content .sweetVill{
+    margin-bottom: 50px;
+}
+#content .sweetVill h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 50px 0 30px 0;
+}
+
+#content .sweetVill ul{
+    overflow: hidden;
+}
+#content .sweetVill li{
+    float: left;
+    width: 33%;
+}
+#content .sweetVill a{
+    display: block;
+    margin-left: 5px;
+}
+
+#content .sweetVill img{
+    width: 100%; 
+    border-radius: 15px;
+}
+
+#content .sweetVill p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.143rem;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}

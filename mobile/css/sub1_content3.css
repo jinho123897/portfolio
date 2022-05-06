@@ -1,0 +1,58 @@
+/* 롯데중앙연구소 연구소안내-인사말 */ 
+
+.map{
+    margin: 0 5px;
+}
+#map{
+    height: 400px;
+}
+
+#content .content_area .adress{
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.429rem; 
+    font-weight: 400; 
+    color: #333; 
+    border-bottom: 1px solid #ccc;
+    margin: 20px 30px 50px;
+}
+
+#content .content_area .bus{
+    margin: 30px; 
+}
+
+#content .content_area .bus i{
+    font-size: 2rem;
+}
+#content .content_area .bus p{
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.143rem; 
+    font-weight: 300; 
+    color: #333; 
+}
+
+#content .content_area .bus p:first-of-type{
+    font-size: 1.429rem; 
+    font-weight: 400; 
+    margin-bottom: 10px;
+}
+
+#content .content_area .subway{
+    margin: 30px 30px 80px; 
+}
+
+#content .content_area .subway i{
+    font-size: 2rem;
+}
+#content .content_area .subway p{
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.143rem; 
+    font-weight: 300; 
+    color: #333; 
+}
+
+#content .content_area .subway p:first-of-type{
+    font-size: 1.429rem; 
+    font-weight: 400; 
+    margin-bottom: 10px;
+}
+

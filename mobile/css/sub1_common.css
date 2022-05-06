@@ -1,0 +1,39 @@
+/* 서브 공통 css */
+
+.visual{
+    position: relative;
+    background: url(../images/sub1_visualx2.png) no-repeat center;
+    background-size: cover;
+    height: 150px;
+    margin-top: 42px;
+}
+
+.visual p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#content .title_area h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#content .title_area p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.286rem;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+    margin: 0 10% 30px;
+}

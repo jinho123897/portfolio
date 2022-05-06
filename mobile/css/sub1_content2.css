@@ -1,0 +1,114 @@
+/* 롯데중앙연구소 연구소안내-연구소소개 */ 
+
+#content .content_top img{
+    margin: 0 5%;
+    width: 90%;
+}
+
+#content .content_top h4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.571rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 30px 0 15px;
+}
+
+#content .content_top p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    text-align: justify;
+    margin: 0 5%;
+}
+
+#content .content_top ul{
+    position: relative;
+    margin: 0 5%;
+    width: 90%;
+}
+
+#content .content_top dl{
+    position: relative;
+    margin: 50px 0;
+}
+
+#content .content_top dt{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.286rem; 
+    font-weight: bold; 
+    color: #333; 
+    margin: 0 0 10px 20px;
+}
+
+#content .content_top dt::before{
+    content: ''; 
+    display: block; 
+    position: absolute; 
+    top: 3px; 
+    left: 0; 
+    width: 8px; 
+    height: 20px; 
+    background: #da291c;
+}
+
+#content .content_top dd{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem; 
+    font-weight: 400;
+    color: #333; 
+    line-height: 1.5rem; 
+    text-align: justify;
+}
+
+#content .content_bottom{
+    margin-bottom: 80px;
+}
+
+#content .content_bottom h4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.571rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 80px 0 30px;
+}
+
+#content .content_bottom .swiper-container {
+    margin: 0 5%;
+    height: 250px;
+  }
+
+#content .content_bottom .swiper-wrapper{
+    width: 100%;
+}
+
+#content .content_bottom .swiper-slide{
+    width: 150px;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 5%;
+
+
+}
+
+#content .content_bottom dt{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.143rem;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+    border-bottom: 1px solid rgba(217, 41, 28, .8 );
+    margin: 10px 20px;
+    padding-bottom: 10px;
+}
+
+#content .content_bottom dd{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333;
+    text-align: center;
+    margin: 0 20px;
+}

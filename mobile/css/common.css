@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+html{
+  position: relative;
+    font-size:14px;
+}
+body {
+  position: relative;
+ color:#333;
+ font-family:돋움, Dotum; }
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal; }
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {
+ color:#333;
+ text-decoration:none; }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {
+ border-radius:1px;}
+textarea { resize:none; }
+label { cursor:pointer; }
+table{border-collapse: collapse;}
+.hidden,#skipNav{display: block; position: absolute; left:-1000%;top:0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+  /* font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Roboto', sans-serif; */
+  
+/* 전체 공통 */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700&family=Roboto:wght@100;300;400;700&display=swap');
+#wrap{ width:100%; position: relative;  overflow:hidden;}
+
+
+/* 헤더공통 */
+#headerArea{
+  height: 42px; 
+  width: 100%; 
+  background: #fff;
+  position: fixed; 
+  top: 0; left: 0; 
+  z-index: 19; 
+  box-shadow: 1px 1px 5px 1px #ccc;
+}
+#headerArea .header_top{
+  overflow: hidden;
+}
+#headerArea h1{
+  float: left;
+}
+#headerArea h1 a{
+  display: block; 
+  width: 105px; 
+  height: 22px; 
+  background: url(../images/headerLogo.png) 0 0 no-repeat;
+  text-indent: -999px; 
+  margin: 10px 0 10px 10px;
+}
+@media screen and (min-width: 640px) {
+  #headerArea h1 a{
+    background: url("../images/headerLogox2.png") center no-repeat;
+    -webkit-background-size: 105px 22px;
+  }
+} 
+
+#headerArea .menu_ham {
+  display: block;
+  float: right;
+  height: 42px;
+  position: relative;
+  border-radius: 5px; 
+}
+#headerArea .menu_ham span {
+  width: 25px;
+  height: 4px;
+  background: #333;
+  position: relative;
+  text-indent: -9999px;
+  display: block;
+  margin: 20px 15px;
+  border-radius: 5px;
+  transition: all .3s;
+  z-index: 20;
+}
+#headerArea .menu_ham span::before {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 4px;
+  background: #333;
+  position: absolute;
+  top: -7px;
+  left: 0;
+  border-radius: 5px;
+  transition: all .3s;
+  z-index: 20;
+}
+#headerArea .menu_ham span::after {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 4px;
+  background: #333;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  border-radius: 5px;
+  transition: all .3s;
+  z-index: 20;
+}
+
+/* 메뉴가 열렸을때 */
+#headerArea.mn_open .menu_ham span, #headerArea.mn_open .menu_ham span::before, #headerArea.mn_open .menu_ham span::after {
+  background: #333;
+  transition: all .3s;
+}
+#headerArea.mn_open .menu_ham span {
+  background: rgba(0,0,0,0);
+  transition: all .3s;
+}
+#headerArea.mn_open .menu_ham span::before {
+  transform: rotate(45deg);
+  top: 0;
+  transition: all .3s;
+}
+#headerArea.mn_open .menu_ham span::after {
+  transform: rotate(-45deg);
+  top: 0;
+  transition: all .3s;
+}
+
+/* nav 영역*/
+#gnb{
+  padding-top: 10px;
+  position: absolute; 
+  width: 100%; 
+  right:-100%; 
+  top:42px; 
+  opacity: 0; 
+  background: #fff
+  ;z-index:20
+}
+
+#gnb .depth1 h3 a{
+  position: relative;
+  padding: 10px;
+  display: block;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.429rem;
+  font-weight: bold;
+  color: #333;
+}
+#gnb .depth1 h3 a i{
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+#gnb .depth1 ul{
+  background:#eee; 
+  display: none}
+
+#gnb .depth1 ul li a{
+  display: block; 
+  padding: 15px 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.143rem;
+  font-weight: 400;
+  color: #333;} 
+
+
+/* 푸터공통 */
+#footerArea{
+  background: #282828;
+  padding-bottom: 20px;
+}
+#footerArea ul{
+  overflow: hidden;
+  margin: 0 auto; 
+  padding: 20px 0;
+  width: 240px;
+}
+#footerArea li{
+  float: left;
+  margin-left: 20px;
+}
+#footerArea li:first-of-type{
+  margin-left: 0;
+}
+#footerArea li a{
+  display: block;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: .857rem;
+  font-weight: 400;
+  color: #ccc;
+}
+#footerArea img{
+  display: block;
+  margin: 0 auto 10px;
+}
+
+#footerArea address span{
+  display: block;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: .857rem;
+  font-weight: 400;
+  color: #ccc;
+  text-align: center;
+  margin-bottom: 5px;
+}
+#footerArea p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: .857rem;
+  font-weight: 400;
+  color: #ccc;
+  text-align: center;
+}
+
+/* top move */
+.topMove{
+  display: block; 
+  position: fixed; 
+  right: 30px; 
+  bottom: 50px; 
+  z-index: 50;
+}
+.topMove i{
+  font-size: 30px; 
+  color: #da291c;
+}
+
+
+
+

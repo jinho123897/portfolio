@@ -1,0 +1,98 @@
+/* 롯데중앙연구소 스위트빌-스위트빌이야기 */ 
+
+
+#content .tabs{
+    overflow: hidden; 
+    margin: 20px auto 50px;
+    width: 304px;
+}
+#content .tabs li{
+    float: left;
+}
+#content .tabs li a.tab{
+    display: block; 
+    width: 150px; 
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.429rem; 
+    font-weight: 400; 
+    color: #333; 
+    text-align: center; 
+    padding: 20px 0; 
+    background: #f5f5f5; 
+    border: 1px solid #ccc; 
+}
+
+#content .content_area .contlist{
+    display: none;
+}
+
+#content .character .main{
+    position: relative;
+}
+#content .character .main img{
+    width: 90%;
+    margin: 0 5%;
+}
+#content .character .main p{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.429rem; 
+    font-weight: 400; 
+    color: #fff; 
+    position: absolute; 
+    top: 60px; 
+    left: 50%;
+    margin-left: -146px;
+}
+#content .character ul{
+    margin: 50px 0 80px;
+}
+#content .character ul li{
+    overflow: hidden; 
+    margin: 30px 3%; 
+    border-bottom: 1px dotted #ccc; 
+    padding-bottom: 30px;}
+#content .character ul li:last-child{
+    border-bottom: 0;
+}
+#content .character ul img{
+    width: 30%;
+    float: left;
+}
+#content .character ul dl{
+    margin-left: 33%;
+}
+#content .character ul dt{
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.286rem; 
+    font-weight: bold; 
+    color: #333;
+    margin-bottom: 20px;
+}
+#content .character ul dd{
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.143rem; 
+    font-weight: 400; 
+    color: #333;
+}
+
+#content .food{
+    margin: 0 3% 80px;
+}
+#content .food dt{font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.429rem; 
+    font-weight: bold; 
+    color: #333;
+    margin: 50px 0;
+}
+#content .food dd{
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.286rem; 
+    font-weight: 400; 
+    color: #333; 
+    margin-bottom: 30px;
+    line-height: 1.5rem;
+}
+#content .food iframe{
+    width: 100%; 
+    height: 280px;
+}
