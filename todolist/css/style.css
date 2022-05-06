@@ -1,0 +1,137 @@
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px; color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body{font-family: 'Roboto Condensed', sans-serif; color: #fff; font-size: 16px;}
+
+.hidden{display: none; position: absolute;
+    left: -1000%; width: 1px; height: 1px;
+     overflow: hidden; color: #fff}
+
+
+#weather{
+    font-size: .875rem;
+    font-weight: 300;
+    margin: 2% 0 0 85%;
+}
+#weather span{
+    margin-right: 10px;
+}
+.contents{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contents h1,h2{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0
+}
+.contents h1{font-size: 3rem;}
+.contents #login-form{
+    margin: 10px 0 50px;
+}
+.contents #login-form input{
+    width: 90%;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0 5%;
+    display: block;
+}
+.contents #login-form input:first-of-type{
+    border-bottom: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    margin-right: 10px
+}
+.contents #login-form input:first-of-type::placeholder{
+    color: #fff;
+    text-align: center;
+}
+.contents #login-form input:last-of-type{
+    cursor: pointer;
+    height: 30px;
+    margin:20px 5% 30px;
+}
+.contents #todo-form input{
+    width: 90%;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    text-align: center;
+    margin: 10px 0;
+    padding: 0 5%;
+}
+.contents #todo-form input:first-of-type::placeholder{
+    color: #fff;
+    text-align: center;
+}
+
+.contents ul{
+    background: rgba(255, 255, 255, .6);
+    border-radius: 5px;
+}
+.contents ul li{
+    padding: 10px;
+    color: #333;
+    font-weight: 700;
+    overflow: hidden;
+}
+.contents ul li span{
+    display: block;
+    float: left;
+}
+.contents ul li button{
+    display: block;
+    float: right;
+    border: 0;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+#quote{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
