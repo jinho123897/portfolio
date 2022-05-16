@@ -1,0 +1,40 @@
+.container {
+    height: 100%;
+    background-color: #e2e3df;
+}
+.loader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+.backimg{
+    width: 100%;
+}
+.contents{
+    width: 90%;
+    margin: 30px 5%;
+    display: flex;
+}
+.contents>img{
+    width: 30%;
+    max-width: 200px;
+    margin-right: 5%;
+}
+.summary{
+    width: 90%;
+    margin: 0 5%;
+    font-size: 1rem;
+    padding-bottom: 50px;
+}
+h2,p{
+    font-size: 1.25rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+ul li{
+    margin-top: 10px;
+}
